@@ -1,0 +1,3254 @@
+"Rank","City","State","Total cases as of 3/30"
+1,"New York","New York",223872
+2,"Westchester","New York",57775
+3,"Nassau","New York",41594
+4,"Suffolk","New York",29482
+5,"King","Washington",20472
+6,"Cook","Illinois",19544
+7,"Unassigned","New Jersey",15362
+8,"Wayne","Michigan",14809
+9,"Bergen","New Jersey",12964
+10,"Rockland","New York",12497
+11,"Los Angeles","California",12458
+12,"Orleans","Louisiana",10356
+13,"Snohomish","Washington",9587
+14,"Orange","New York",7589
+15,"Oakland","Michigan",7250
+16,"Fairfield","Connecticut",6902
+17,"Essex","New Jersey",6838
+18,"Miami-Dade","Florida",6771
+19,"Middlesex","Massachusetts",6391
+20,"Santa Clara","California",6364
+21,"Broward","Florida",5701
+22,"Suffolk","Massachusetts",5416
+23,"Middlesex","New Jersey",5329
+24,"Hudson","New Jersey",5218
+25,"Monmouth","New Jersey",5104
+26,"Philadelphia","Pennsylvania",5015
+27,"Jefferson","Louisiana",4867
+28,"Union","New Jersey",4833
+29,"Passaic","New Jersey",4319
+30,"Ocean","New Jersey",3940
+31,"Milwaukee","Wisconsin",3857
+32,"Clark","Nevada",3740
+33,"Macomb","Michigan",3723
+34,"Marion","Indiana",3528
+35,"San Diego","California",3474
+36,"Morris","New Jersey",3324
+37,"Norfolk","Massachusetts",3323
+38,"Maricopa","Arizona",3257
+39,"Dallas","Texas",3195
+40,"Montgomery","Pennsylvania",3153
+41,"Davidson","Tennessee",3149
+42,"Cuyahoga","Ohio",2883
+43,"Essex","Massachusetts",2854
+44,"Fulton","Georgia",2839
+45,"Orange","California",2808
+46,"Denver","Colorado",2684
+47,"Harris","Texas",2661
+48,"San Francisco","California",2613
+49,"San Mateo","California",2505
+50,"District of Columbia","District of Columbia",2322
+51,"Pierce","Washington",2315
+52,"Unassigned","Massachusetts",2248
+53,"Erie","New York",2174
+54,"Mecklenburg","North Carolina",2157
+55,"Dutchess","New York",2022
+56,"Salt Lake","Utah",2021
+57,"Shelby","Tennessee",1995
+58,"Palm Beach","Florida",1967
+59,"Montgomery","Maryland",1950
+60,"Alameda","California",1911
+61,"Lake","Illinois",1844
+62,"Albany","New York",1818
+63,"St. Louis","Missouri",1811
+64,"DuPage","Illinois",1781
+65,"Worcester","Massachusetts",1774
+66,"Somerset","New Jersey",1755
+67,"New Haven","Connecticut",1652
+68,"Jefferson","Alabama",1622
+69,"DeKalb","Georgia",1614
+70,"Hartford","Connecticut",1581
+71,"Unassigned","Washington",1579
+72,"Sacramento","California",1578
+73,"Plymouth","Massachusetts",1573
+74,"Eagle","Colorado",1560
+75,"Delaware","Pennsylvania",1553
+76,"Contra Costa","California",1522
+77,"Dougherty","Georgia",1518
+78,"Monroe","New York",1517
+79,"Cobb","Georgia",1515
+80,"Hillsborough","Florida",1460
+81,"Unassigned","Georgia",1417
+82,"Allegheny","Pennsylvania",1409
+83,"Travis","Texas",1397
+84,"Prince George's","Maryland",1376
+85,"Hennepin","Minnesota",1359
+86,"Franklin","Ohio",1315
+87,"Dane","Wisconsin",1315
+88,"Orange","Florida",1310
+89,"Riverside","California",1303
+90,"Jefferson","Colorado",1287
+91,"Arapahoe","Colorado",1283
+92,"El Paso","Colorado",1275
+93,"Washington","Oregon",1232
+94,"Washtenaw","Michigan",1215
+95,"Bucks","Pennsylvania",1202
+96,"Mercer","New Jersey",1196
+97,"Caddo","Louisiana",1117
+98,"Tarrant","Texas",1105
+99,"Onondaga","New York",1104
+100,"Wake","North Carolina",1101
+101,"Fairfax","Virginia",1098
+102,"Unassigned","Tennessee",1070
+103,"Bristol","Massachusetts",1056
+104,"Providence","Rhode Island",1047
+105,"Summit","Utah",1040
+106,"Cumberland","Maine",1035
+107,"Bartow","Georgia",1006
+108,"Weld","Colorado",1000
+109,"New Castle","Delaware",991
+110,"Out of TN","Tennessee",990
+111,"Bexar","Texas",980
+112,"East Baton Rouge","Louisiana",961
+113,"Unassigned","Illinois",940
+114,"Putnam","New York",929
+115,"Berkshire","Massachusetts",918
+116,"St. Tammany","Louisiana",916
+117,"Williamson","Tennessee",912
+118,"Durham","North Carolina",908
+119,"Denton","Texas",902
+120,"Baltimore","Maryland",901
+121,"Hampden","Massachusetts",899
+122,"Camden","New Jersey",882
+123,"Ulster","New York",865
+124,"Monroe","Pennsylvania",855
+125,"Gwinnett","Georgia",852
+126,"Duval","Florida",847
+127,"Collin","Texas",840
+128,"Fort Bend","Texas",840
+129,"Kershaw","South Carolina",827
+130,"Burlington","New Jersey",826
+131,"Will","Illinois",825
+132,"Unassigned","Colorado",819
+133,"Pima","Arizona",817
+134,"Chester","Pennsylvania",815
+135,"San Joaquin","California",813
+136,"Barnstable","Massachusetts",798
+137,"Honolulu","Hawaii",784
+138,"Lehigh","Pennsylvania",775
+139,"Saratoga","New York",768
+140,"Oklahoma","Oklahoma",751
+141,"Baltimore City","Maryland",745
+142,"","Puerto Rico",743
+143,"Pinellas","Florida",741
+144,"Whatcom","Washington",740
+145,"Lee","Florida",739
+146,"Ascension","Louisiana",739
+147,"Unassigned","Kentucky",732
+148,"Collier","Florida",724
+149,"Skagit","Washington",720
+150,"Douglas","Colorado",711
+151,"Unassigned","Nevada",708
+152,"Chittenden","Vermont",704
+153,"Blaine","Idaho",700
+154,"Northampton","Pennsylvania",699
+155,"Bernalillo","New Mexico",698
+156,"Johnson","Kansas",685
+157,"Marin","California",680
+158,"","Diamond Princess",680
+159,"Richland","South Carolina",673
+160,"Genesee","Michigan",669
+161,"Marion","Oregon",669
+162,"Washoe","Nevada",666
+163,"Charleston","South Carolina",661
+164,"Spokane","Washington",658
+165,"Pulaski","Arkansas",657
+166,"Yakima","Washington",656
+167,"Johnson","Iowa",649
+168,"Rockingham","New Hampshire",641
+169,"Boulder","Colorado",639
+170,"Island","Washington",624
+171,"Unassigned","New York",622
+172,"Ventura","California",621
+173,"Arlington","Virginia",619
+174,"Unassigned","Arkansas",618
+175,"Douglas","Nebraska",610
+176,"","Grand Princess",609
+177,"Sumner","Tennessee",607
+178,"Jefferson","Kentucky",606
+179,"Schenectady","New York",605
+180,"Summit","Ohio",586
+181,"Waukesha","Wisconsin",566
+182,"James City","Virginia",565
+183,"Adams","Colorado",554
+184,"Kane","Illinois",552
+185,"Gunnison","Colorado",550
+186,"St. Louis City","Missouri",549
+187,"Kansas City","Missouri",549
+188,"Alachua","Florida",545
+189,"Howard","Maryland",545
+190,"Larimer","Colorado",544
+191,"Mahoning","Ohio",541
+192,"Unassigned","Rhode Island",537
+193,"Anne Arundel","Maryland",535
+194,"Multnomah","Oregon",531
+195,"San Luis Obispo","California",524
+196,"Hamilton","Ohio",520
+197,"Osceola","Florida",512
+198,"San Bernardino","California",504
+199,"Shelby","Alabama",502
+200,"Greenville","South Carolina",498
+201,"Litchfield","Connecticut",489
+202,"Kent","Michigan",488
+203,"Sussex","New Jersey",484
+204,"Clark","Washington",484
+205,"Sullivan","New York",480
+206,"Luzerne","Pennsylvania",477
+207,"Ada","Idaho",474
+208,"Lorain","Ohio",472
+209,"Davis","Utah",464
+210,"Hamilton","Indiana",458
+211,"Seminole","Florida",449
+212,"DeSoto","Mississippi",446
+213,"Montgomery","Texas",444
+214,"","Guam",442
+215,"Sonoma","California",440
+216,"Madison","Alabama",439
+217,"Cherokee","Georgia",438
+218,"Prince William","Virginia",431
+219,"Hinds","Mississippi",430
+220,"Lee","Alabama",427
+221,"Hunterdon","New Jersey",426
+222,"Navajo","Arizona",425
+223,"Carroll","Georgia",425
+224,"Lucas","Ohio",422
+225,"Lake","Indiana",406
+226,"Ramsey","Minnesota",400
+227,"Berks","Pennsylvania",393
+228,"Brazoria","Texas",393
+229,"Placer","California",392
+230,"Pinal","Arizona",391
+231,"Johnson","Indiana",386
+232,"Rensselaer","New York",385
+233,"Clayton","Georgia",376
+234,"Loudoun","Virginia",375
+235,"Grant","Washington",374
+236,"Wyandotte","Kansas",373
+237,"Fayette","Kentucky",371
+238,"Sussex","Delaware",369
+239,"Tulsa","Oklahoma",368
+240,"Santa Cruz","California",367
+241,"Volusia","Florida",365
+242,"Gloucester","New Jersey",365
+243,"Linn","Oregon",365
+244,"Galveston","Texas",365
+245,"Kitsap","Washington",364
+246,"Sarasota","Florida",362
+247,"St. John the Baptist","Louisiana",360
+248,"Cleburne","Arkansas",354
+249,"Beaufort","South Carolina",354
+250,"Coconino","Arizona",351
+251,"Cleveland","Oklahoma",351
+252,"Santa Barbara","California",341
+253,"St. Johns","Florida",339
+254,"Hillsborough","New Hampshire",339
+255,"Boone","Missouri",333
+256,"Tompkins","New York",333
+257,"Solano","California",328
+258,"Gallatin","Montana",328
+259,"Lafayette","Louisiana",315
+260,"Olmsted","Minnesota",315
+261,"McHenry","Illinois",312
+262,"Pitkin","Colorado",311
+263,"Warren","New Jersey",310
+264,"Benton","Washington",308
+265,"Lee","Georgia",307
+266,"Lancaster","Pennsylvania",305
+267,"Harrison","Mississippi",301
+268,"Bossier","Louisiana",298
+269,"Greene","Missouri",296
+270,"St. Bernard","Louisiana",295
+271,"Henry","Georgia",294
+272,"Manatee","Florida",292
+273,"Jackson","Missouri",291
+274,"Virginia Beach","Virginia",291
+275,"Lackawanna","Pennsylvania",290
+276,"Dakota","Minnesota",289
+277,"Ingham","Michigan",288
+278,"Polk","Iowa",287
+279,"McLennan","Texas",285
+280,"Anchorage","Alaska",284
+281,"Grafton","New Hampshire",283
+282,"Tolland","Connecticut",281
+283,"Kern","California",279
+284,"Medina","Ohio",277
+285,"York","Maine",275
+286,"Clackamas","Oregon",275
+287,"Hendricks","Indiana",274
+288,"Brazos","Texas",274
+289,"St. James","Louisiana",272
+290,"Livingston","Michigan",272
+291,"Rutherford","Tennessee",270
+292,"Lafourche","Louisiana",268
+293,"Clarke","Georgia",265
+294,"Fond du Lac","Wisconsin",264
+295,"York","Pennsylvania",262
+296,"Miami","Ohio",261
+297,"Butler","Ohio",260
+298,"Williamson","Texas",257
+299,"Knox","Tennessee",254
+300,"Union","North Carolina",252
+301,"Lexington","South Carolina",251
+302,"Guilford","North Carolina",248
+303,"Polk","Florida",247
+304,"El Paso","Texas",247
+305,"Monterey","California",245
+306,"Westmoreland","Pennsylvania",244
+307,"Hamilton","Tennessee",244
+308,"Utah","Utah",243
+309,"Forsyth","North Carolina",241
+310,"Burleigh","North Dakota",240
+311,"Ozaukee","Wisconsin",239
+312,"Thurston","Washington",238
+313,"Fresno","California",237
+314,"Horry","South Carolina",236
+315,"Wasatch","Utah",235
+316,"Henrico","Virginia",235
+317,"Lake","Florida",234
+318,"Okaloosa","Florida",233
+319,"Pasco","Florida",232
+320,"St. Joseph","Indiana",232
+321,"Santa Fe","New Mexico",231
+322,"Lubbock","Texas",231
+323,"Bell","Texas",230
+324,"Tulare","California",228
+325,"Columbia","New York",228
+326,"St. Charles","Louisiana",227
+327,"Smith","Texas",227
+328,"Carroll","Maryland",225
+329,"Washington","Wisconsin",225
+330,"St. Charles","Missouri",223
+331,"Stark","Ohio",222
+332,"Monroe","Michigan",221
+333,"Sumter","Florida",220
+334,"Fayette","Georgia",220
+335,"Terrebonne","Louisiana",220
+336,"Jefferson","Arkansas",219
+337,"Hall","Georgia",218
+338,"Cumberland","Pennsylvania",215
+339,"Unassigned","Michigan",215
+340,"Franklin","Massachusetts",214
+341,"Floyd","Georgia",212
+342,"Rapides","Louisiana",212
+343,"Unassigned","Louisiana",212
+344,"Middlesex","Connecticut",210
+345,"Linn","Iowa",209
+346,"Anderson","South Carolina",208
+347,"Madison","Mississippi",207
+348,"Rankin","Mississippi",207
+349,"Butler","Pennsylvania",207
+350,"Niagara","New York",206
+351,"Lake","Ohio",205
+352,"Douglas","Georgia",200
+353,"Clay","Florida",198
+354,"San Benito","California",196
+355,"Kenosha","Wisconsin",196
+356,"Ouachita","Louisiana",193
+357,"York","South Carolina",193
+358,"Pearl River","Mississippi",190
+359,"Faulkner","Arkansas",189
+360,"Cabarrus","North Carolina",189
+361,"Deschutes","Oregon",189
+362,"Jackson","Mississippi",186
+363,"Fremont","Wyoming",186
+364,"Stanislaus","California",185
+365,"Sedgwick","Kansas",185
+366,"Escambia","Florida",184
+367,"Hampshire","Massachusetts",184
+368,"Mobile","Alabama",180
+369,"Washington","Minnesota",180
+370,"Minnehaha","South Dakota",180
+371,"Unassigned","Connecticut",178
+372,"Weber","Utah",177
+373,"Tuscaloosa","Alabama",176
+374,"Delaware","Ohio",175
+375,"Calcasieu","Louisiana",173
+376,"Trumbull","Ohio",173
+377,"Pike","Pennsylvania",172
+378,"Forrest","Mississippi",171
+379,"Ottawa","Michigan",170
+380,"Windsor","Vermont",169
+381,"Coweta","Georgia",167
+382,"Kent","Delaware",165
+383,"Lowndes","Georgia",164
+384,"Decatur","Indiana",164
+385,"Brevard","Florida",163
+386,"Orange","North Carolina",163
+387,"Yellowstone","Montana",159
+388,"Broome","New York",157
+389,"Robertson","Tennessee",156
+390,"Forsyth","Georgia",155
+391,"Daviess","Kentucky",155
+392,"Harrison","Kentucky",154
+393,"Beadle","South Dakota",154
+394,"Monongalia","West Virginia",152
+395,"Iberville","Louisiana",151
+396,"Washington","Pennsylvania",151
+397,"St. Clair","Illinois",150
+398,"Richmond City","Virginia",150
+399,"Walker","Alabama",149
+400,"Garfield","Colorado",149
+401,"Oneida","New York",149
+402,"Montgomery","Ohio",149
+403,"Alexandria","Virginia",149
+404,"Imperial","California",148
+405,"St. Clair","Michigan",148
+406,"Beaver","Pennsylvania",148
+407,"Garland","Arkansas",147
+408,"Charles","Maryland",147
+409,"Webb","Texas",146
+410,"Harford","Maryland",145
+411,"Montgomery","Alabama",143
+412,"Franklin","Indiana",143
+413,"Dauphin","Pennsylvania",142
+414,"Fairbanks North Star","Alaska",141
+415,"Martin","Minnesota",141
+416,"Leflore","Mississippi",141
+417,"New Hanover","North Carolina",141
+418,"Yolo","California",140
+419,"Berrien","Michigan",140
+420,"Benton","Arkansas",139
+421,"Jackson","Michigan",139
+422,"Chesterfield","Virginia",139
+423,"Allen","Indiana",138
+424,"Coahoma","Mississippi",138
+425,"Canyon","Idaho",137
+426,"Tippah","Mississippi",137
+427,"Madison","New York",137
+428,"Sumter","South Carolina",137
+429,"Atlantic","New Jersey",136
+430,"Wilson","Tennessee",136
+431,"Maui","Hawaii",135
+432,"Kankakee","Illinois",135
+433,"Iredell","North Carolina",135
+434,"Laramie","Wyoming",135
+435,"Indian River","Florida",134
+436,"Summit","Colorado",133
+437,"Spartanburg","South Carolina",133
+438,"Unassigned","Mississippi",133
+439,"Bristol","Rhode Island",132
+440,"Washington","Rhode Island",132
+441,"Douglas","Kansas",131
+442,"Lee","Mississippi",131
+443,"Wichita","Texas",131
+444,"Bennington","Vermont",128
+445,"Sandoval","New Mexico",127
+446,"Buncombe","North Carolina",127
+447,"Chambers","Alabama",126
+448,"Harnett","North Carolina",126
+449,"Richmond","Georgia",125
+450,"Plaquemines","Louisiana",125
+451,"Saginaw","Michigan",125
+452,"Anoka","Minnesota",125
+453,"Hays","Texas",125
+454,"Citrus","Florida",124
+455,"Santa Rosa","Florida",124
+456,"De Soto","Louisiana",123
+457,"Frederick","Maryland",123
+458,"","Virgin Islands",122
+459,"Paulding","Georgia",121
+460,"St. Lucie","Florida",120
+461,"Dallas","Iowa",120
+462,"Jefferson","Washington",120
+463,"Martin","Florida",119
+464,"Dona Ana","New Mexico",118
+465,"Kay","Oklahoma",118
+466,"Leon","Florida",117
+467,"Newport","Rhode Island",117
+468,"Nueces","Texas",116
+469,"Humboldt","California",115
+470,"New London","Connecticut",115
+471,"Leavenworth","Kansas",115
+472,"Out of UT","Utah",115
+473,"Elmore","Alabama",114
+474,"Clark","Arkansas",114
+475,"Walton","Florida",114
+476,"Kootenai","Idaho",114
+477,"Newton","Georgia",113
+478,"Clark","Indiana",113
+479,"Hancock","Indiana",113
+480,"Gaston","North Carolina",113
+481,"Kent","Rhode Island",113
+482,"La Crosse","Wisconsin",112
+483,"Gordon","Georgia",111
+484,"Ontario","New York",111
+485,"Monroe","Florida",110
+486,"Portage","Ohio",110
+487,"Franklin","Washington",110
+488,"Putnam","Tennessee",109
+489,"Kittitas","Washington",109
+490,"Brunswick","North Carolina",108
+491,"Morton","North Dakota",108
+492,"Racine","Wisconsin",108
+493,"Rockdale","Georgia",106
+494,"Cameron","Texas",106
+495,"Hidalgo","Texas",106
+496,"Addison","Vermont",106
+497,"Cole","Missouri",105
+498,"Schuylkill","Pennsylvania",105
+499,"Orangeburg","South Carolina",105
+500,"Hernando","Florida",104
+501,"Warren","Ohio",104
+502,"San Juan","New Mexico",102
+503,"Centre","Pennsylvania",102
+504,"Chatham","North Carolina",100
+505,"Sheboygan","Wisconsin",100
+506,"Limestone","Alabama",99
+507,"Ripley","Indiana",99
+508,"Van Buren","Arkansas",98
+509,"Madera","California",98
+510,"Howard","Indiana",98
+511,"Clinton","New York",98
+512,"Steuben","New York",98
+513,"Chelan","Washington",98
+514,"Polk","Georgia",97
+515,"Floyd","Indiana",97
+516,"Jackson","Oregon",97
+517,"Yamhill","Oregon",97
+518,"Lancaster","South Carolina",97
+519,"Champaign","Illinois",96
+520,"Stafford","Virginia",96
+521,"Kanawha","West Virginia",96
+522,"Carver","Minnesota",95
+523,"Cass","North Dakota",95
+524,"Chatham","Georgia",93
+525,"McLean","Illinois",93
+526,"Rowan","North Carolina",93
+527,"Lebanon","Pennsylvania",93
+528,"Matagorda","Texas",93
+529,"Unassigned","New Hampshire",93
+530,"Norfolk","Virginia",92
+531,"Ketchikan Gateway","Alaska",91
+532,"Marion","Florida",91
+533,"Pawnee","Oklahoma",91
+534,"Kalamazoo","Michigan",90
+535,"Pike","Mississippi",90
+536,"Monroe","Indiana",89
+537,"Dubuque","Iowa",89
+538,"Geauga","Ohio",89
+539,"Washington","Arkansas",88
+540,"Routt","Colorado",88
+541,"Holmes","Mississippi",88
+542,"Charlottesville","Virginia",88
+543,"Livingston","Louisiana",87
+544,"Lafayette","Mississippi",87
+545,"Pitt","North Carolina",87
+546,"Washington","Tennessee",87
+547,"Kenton","Kentucky",86
+548,"Jefferson","Missouri",86
+549,"Sarpy","Nebraska",86
+550,"Carroll","New Hampshire",86
+551,"Jefferson","Texas",86
+552,"Oktibbeha","Mississippi",85
+553,"Johnston","North Carolina",85
+554,"Winnebago","Wisconsin",85
+555,"Apache","Arizona",84
+556,"Madison","Indiana",84
+557,"Morgan","Indiana",84
+558,"Hancock","Mississippi",84
+559,"Cass","Missouri",84
+560,"Missoula","Montana",84
+561,"Tipton","Tennessee",84
+562,"Mower","Minnesota",83
+563,"Ellis","Texas",83
+564,"Troup","Georgia",82
+565,"Kendall","Illinois",82
+566,"Sangamon","Illinois",82
+567,"Boone","Indiana",82
+568,"Washington","Iowa",82
+569,"West Baton Rouge","Louisiana",82
+570,"Otsego","Michigan",82
+571,"Washington","Mississippi",82
+572,"Newport News","Virginia",82
+573,"Out of MI","Michigan",82
+574,"Early","Georgia",81
+575,"Wayne","New York",81
+576,"Unassigned","Hawaii",81
+577,"Charlotte","Florida",80
+578,"Clinton","Michigan",80
+579,"York","Virginia",80
+580,"Broomfield","Colorado",79
+581,"Columbia","Georgia",79
+582,"Spalding","Georgia",79
+583,"Merrimack","New Hampshire",79
+584,"Creek","Oklahoma",79
+585,"Albemarle","Virginia",79
+586,"Rock","Wisconsin",79
+587,"Winnebago","Illinois",78
+588,"Cumberland","North Carolina",78
+589,"Washington","Oklahoma",78
+590,"Unassigned","Vermont",78
+591,"Houston","Georgia",77
+592,"Washington","Louisiana",77
+593,"Canadian","Oklahoma",77
+594,"Polk","Oregon",77
+595,"Darlington","South Carolina",76
+596,"Teton","Wyoming",76
+597,"Baldwin","Alabama",75
+598,"Mitchell","Georgia",75
+599,"Tift","Georgia",75
+600,"Allamakee","Iowa",75
+601,"Calhoun","Michigan",75
+602,"Davidson","North Carolina",75
+603,"Morgan","Alabama",74
+604,"Herkimer","New York",74
+605,"Licking","Ohio",74
+606,"Lane","Oregon",74
+607,"Montgomery","Tennessee",74
+608,"St. Clair","Alabama",73
+609,"Crittenden","Arkansas",73
+610,"Bibb","Georgia",73
+611,"Copiah","Mississippi",73
+612,"Berkeley","South Carolina",73
+613,"Florence","South Carolina",73
+614,"Nevada","California",72
+615,"Putnam","Florida",72
+616,"Sumter","Georgia",72
+617,"Kennebec","Maine",72
+618,"Stearns","Minnesota",72
+619,"Catawba","North Carolina",72
+620,"Dickson","Tennessee",72
+621,"Washington","Vermont",72
+622,"Lauderdale","Alabama",71
+623,"Tangipahoa","Louisiana",71
+624,"Oxford","Maine",71
+625,"Bolivar","Mississippi",71
+626,"Sauk","Wisconsin",71
+627,"Flagler","Florida",70
+628,"Wilkinson","Mississippi",70
+629,"Strafford","New Hampshire",70
+630,"Adams","Pennsylvania",70
+631,"Columbia","Wisconsin",70
+632,"Yavapai","Arizona",69
+633,"Mesa","Colorado",69
+634,"Delaware","Indiana",69
+635,"Elkhart","Indiana",69
+636,"Lowndes","Mississippi",69
+637,"Warren","New York",69
+638,"Wilson","North Carolina",69
+639,"Clarendon","South Carolina",69
+640,"Comal","Texas",69
+641,"St. Landry","Louisiana",68
+642,"Marshall","Mississippi",68
+643,"Chemung","New York",68
+644,"Payne","Oklahoma",68
+645,"Benton","Oregon",68
+646,"Washington","Utah",68
+647,"Windham","Vermont",68
+648,"Sheridan","Wyoming",68
+649,"Kauai","Hawaii",67
+650,"Tippecanoe","Indiana",67
+651,"Avoyelles","Louisiana",67
+652,"Midland","Michigan",67
+653,"Cowlitz","Washington",67
+654,"La Plata","Colorado",66
+655,"Oconee","Georgia",66
+656,"Muscatine","Iowa",66
+657,"Androscoggin","Maine",66
+658,"Bartholomew","Indiana",65
+659,"Lincoln","Maine",65
+660,"Blue Earth","Minnesota",65
+661,"Scott","Minnesota",65
+662,"Le Sueur","Minnesota",64
+663,"Wayne","Pennsylvania",64
+664,"Klickitat","Washington",64
+665,"Eau Claire","Wisconsin",64
+666,"Laurens","Georgia",63
+667,"Penobscot","Maine",63
+668,"Lewis and Clark","Montana",63
+669,"Northampton","North Carolina",63
+670,"Cheatham","Tennessee",63
+671,"Chickasaw","Mississippi",62
+672,"Chenango","New York",62
+673,"Delaware","New York",62
+674,"Fairfield","Ohio",62
+675,"Greene","Tennessee",62
+676,"Belknap","New Hampshire",61
+677,"Carteret","North Carolina",61
+678,"Guadalupe","Texas",61
+679,"Williamsburg","Virginia",61
+680,"Unassigned","Wisconsin",61
+681,"Madison","Illinois",60
+682,"Vanderburgh","Indiana",60
+683,"Assumption","Louisiana",60
+684,"St. Martin","Louisiana",60
+685,"Webster","Louisiana",60
+686,"Cecil","Maryland",60
+687,"Ward","North Dakota",60
+688,"Belmont","Ohio",60
+689,"Maury","Tennessee",60
+690,"Midland","Texas",60
+691,"Chaffee","Colorado",59
+692,"Glynn","Georgia",59
+693,"Peoria","Illinois",59
+694,"Iberia","Louisiana",59
+695,"Eaton","Michigan",59
+696,"Greene","New York",59
+697,"Clermont","Ohio",59
+698,"Worth","Georgia",58
+699,"Calvert","Maryland",58
+700,"Silver Bow","Montana",58
+701,"Erie","Pennsylvania",58
+702,"Dorchester","South Carolina",58
+703,"Pickens","South Carolina",58
+704,"Pueblo","Colorado",57
+705,"Muscogee","Georgia",57
+706,"Jennings","Indiana",57
+707,"Scott","Iowa",57
+708,"Lenawee","Michigan",57
+709,"Wyoming","New York",57
+710,"Randolph","North Carolina",57
+711,"Wood","Ohio",57
+712,"Clay","Missouri",56
+713,"Cumberland","New Jersey",56
+714,"Umatilla","Oregon",56
+715,"Fayette","Pennsylvania",56
+716,"Unassigned","Indiana",56
+717,"El Dorado","California",55
+718,"Harrison","Iowa",55
+719,"Warren","Kentucky",55
+720,"Lauderdale","Mississippi",55
+721,"Henderson","North Carolina",55
+722,"Chesapeake","Virginia",55
+723,"Napa","California",54
+724,"Highlands","Florida",54
+725,"Muskegon","Michigan",54
+726,"Lincoln","Mississippi",54
+727,"Columbiana","Ohio",54
+728,"Unassigned","Maine",54
+729,"Terrell","Georgia",53
+730,"Clinton","Illinois",53
+731,"Porter","Indiana",53
+732,"Wright","Minnesota",53
+733,"Cape May","New Jersey",53
+734,"Tooele","Utah",53
+735,"Taos","New Mexico",52
+736,"Montgomery","New York",52
+737,"Franklin","Pennsylvania",52
+738,"Jefferson","Wisconsin",52
+739,"Walworth","Wisconsin",52
+740,"Attala","Mississippi",51
+741,"Livingston","New York",51
+742,"Cumberland","Tennessee",51
+743,"Hockley","Texas",51
+744,"Lamoille","Vermont",51
+745,"Marion","Alabama",50
+746,"Mono","California",50
+747,"Shelby","Indiana",50
+748,"Black Hawk","Iowa",50
+749,"Tama","Iowa",50
+750,"Johnson","Missouri",50
+751,"Flathead","Montana",50
+752,"Washington","New York",50
+753,"Franklin","North Carolina",50
+754,"Sullivan","Tennessee",50
+755,"Castro","Texas",50
+756,"Baker","Florida",49
+757,"Hawaii","Hawaii",49
+758,"Lewis","Washington",49
+759,"Natrona","Wyoming",49
+760,"Unassigned","Texas",49
+761,"Oswego","New York",48
+762,"Blount","Tennessee",48
+763,"Brown","Wisconsin",48
+764,"Cullman","Alabama",47
+765,"Nassau","Florida",47
+766,"Peach","Georgia",47
+767,"Johnson","Texas",47
+768,"Rutland","Vermont",47
+769,"Whitfield","Georgia",46
+770,"Owen","Indiana",46
+771,"Shawnee","Kansas",46
+772,"St. Louis","Minnesota",46
+773,"Sunflower","Mississippi",46
+774,"Otsego","New York",46
+775,"Jefferson","Tennessee",46
+776,"Franklin","Vermont",46
+777,"Calaveras","California",45
+778,"Acadia","Louisiana",45
+779,"St. Mary","Louisiana",45
+780,"Wicomico","Maryland",45
+781,"Tate","Mississippi",45
+782,"Cherokee","North Carolina",45
+783,"Watauga","North Carolina",45
+784,"Clallam","Washington",45
+785,"Outagamie","Wisconsin",45
+786,"Harrison","Indiana",44
+787,"Steele","Minnesota",44
+788,"Christian","Missouri",44
+789,"Cascade","Montana",44
+790,"Essex","New York",44
+791,"Genesee","New York",44
+792,"Onslow","North Carolina",44
+793,"Pierce","Wisconsin",44
+794,"Allen","Louisiana",43
+795,"Hillsdale","Michigan",43
+796,"Chaves","New Mexico",43
+797,"St. Lawrence","New York",43
+798,"Coshocton","Ohio",43
+799,"Douglas","Oregon",43
+800,"Bay","Michigan",42
+801,"Dodge","Minnesota",42
+802,"Craven","North Carolina",42
+803,"Bradley","Tennessee",42
+804,"Fayette","Tennessee",42
+805,"Gregg","Texas",42
+806,"Teller","Colorado",41
+807,"Sagadahoc","Maine",41
+808,"Perry","Missouri",41
+809,"Cortland","New York",41
+810,"Moore","North Carolina",41
+811,"Stark","North Dakota",41
+812,"Marion","Ohio",41
+813,"Wagoner","Oklahoma",41
+814,"Aiken","South Carolina",41
+815,"Loudon","Tennessee",41
+816,"Berkeley","West Virginia",41
+817,"Barrow","Georgia",40
+818,"Pickens","Georgia",40
+819,"St. Mary's","Maryland",40
+820,"McKinley","New Mexico",40
+821,"Socorro","New Mexico",40
+822,"Alamance","North Carolina",40
+823,"Tuscarawas","Ohio",40
+824,"Sevier","Tennessee",40
+825,"Douglas","Wisconsin",40
+826,"Dearborn","Indiana",39
+827,"Grant","Indiana",39
+828,"Charlevoix","Michigan",39
+829,"Adams","Mississippi",39
+830,"Tunica","Mississippi",39
+831,"Allegany","New York",39
+832,"Jefferson","New York",39
+833,"Ashtabula","Ohio",39
+834,"Spotsylvania","Virginia",39
+835,"Jefferson","West Virginia",39
+836,"Dukes and Nantucket","Massachusetts",39
+837,"Shasta","California",38
+838,"Clear Creek","Colorado",38
+839,"Vigo","Indiana",38
+840,"Butler","Kansas",38
+841,"Pulaski","Kentucky",38
+842,"Scott","Mississippi",38
+843,"Pulaski","Missouri",38
+844,"Comanche","Oklahoma",38
+845,"Georgetown","South Carolina",38
+846,"Hardin","Texas",38
+847,"Goochland","Virginia",38
+848,"Harrisonburg","Virginia",38
+849,"Dodge","Wisconsin",38
+850,"St. Croix","Wisconsin",38
+851,"Kenai Peninsula","Alaska",37
+852,"Craighead","Arkansas",37
+853,"Saline","Arkansas",37
+854,"Montrose","Colorado",37
+855,"Windham","Connecticut",37
+856,"Woodford","Illinois",37
+857,"LaPorte","Indiana",37
+858,"Reno","Kansas",37
+859,"Lincoln","Louisiana",37
+860,"Washington","Maryland",37
+861,"Monroe","Mississippi",37
+862,"Callaway","Missouri",37
+863,"Lincoln","Nebraska",37
+864,"Montour","Pennsylvania",37
+865,"Louisa","Virginia",37
+866,"Jackson","West Virginia",37
+867,"Tallapoosa","Alabama",36
+868,"DeSoto","Florida",36
+869,"Pottawattamie","Iowa",36
+870,"Lyon","Kansas",36
+871,"Lawrence","Mississippi",36
+872,"Carson City","Nevada",36
+873,"Richland","Ohio",36
+874,"Osage","Oklahoma",36
+875,"Orange","Vermont",36
+876,"Gloucester","Virginia",36
+877,"Autauga","Alabama",35
+878,"Chilton","Alabama",35
+879,"Linn","Kansas",35
+880,"Montgomery","Kentucky",35
+881,"Nicollet","Minnesota",35
+882,"Walthall","Mississippi",35
+883,"Lafayette","Missouri",35
+884,"Tioga","New York",35
+885,"Josephine","Oregon",35
+886,"Campbell","Tennessee",35
+887,"Whitman","Washington",35
+888,"Lincoln","Arkansas",34
+889,"Butte","California",34
+890,"Merced","California",34
+891,"Morgan","Colorado",34
+892,"Fayette","Indiana",34
+893,"Clark","Kentucky",34
+894,"Cape Girardeau","Missouri",34
+895,"Platte","Missouri",34
+896,"Knox","Nebraska",34
+897,"Lancaster","Nebraska",34
+898,"Washington","Nebraska",34
+899,"Muskogee","Oklahoma",34
+900,"Yuma","Arizona",33
+901,"Bradley","Arkansas",33
+902,"Franklin","Kansas",33
+903,"Union","Louisiana",33
+904,"Fillmore","Minnesota",33
+905,"Montgomery","Mississippi",33
+906,"Defiance","Ohio",33
+907,"Mercer","Pennsylvania",33
+908,"Fairfield","South Carolina",33
+909,"Carroll","Tennessee",33
+910,"Kendall","Texas",33
+911,"Hanover","Virginia",33
+912,"Cedar","Iowa",32
+913,"Evangeline","Louisiana",32
+914,"Grand Traverse","Michigan",32
+915,"Clay","Minnesota",32
+916,"Yazoo","Mississippi",32
+917,"Wayne","North Carolina",32
+918,"Klamath","Oregon",32
+919,"Lawrence","Pennsylvania",32
+920,"Anderson","Tennessee",32
+921,"Randall","Texas",32
+922,"Jackson","Alabama",31
+923,"Talladega","Alabama",31
+924,"Bryan","Georgia",31
+925,"Coffee","Georgia",31
+926,"Crisp","Georgia",31
+927,"Lawrence","Indiana",31
+928,"Poweshiek","Iowa",31
+929,"East Feliciana","Louisiana",31
+930,"Franklin","Missouri",31
+931,"Carbon","Pennsylvania",31
+932,"Pennington","South Dakota",31
+933,"Harrison","West Virginia",31
+934,"Calhoun","Alabama",30
+935,"Cleveland","Arkansas",30
+936,"Elbert","Colorado",30
+937,"Effingham","Georgia",30
+938,"Lumpkin","Georgia",30
+939,"Rock Island","Illinois",30
+940,"Jackson","Indiana",30
+941,"Cerro Gordo","Iowa",30
+942,"Montcalm","Michigan",30
+943,"Panola","Mississippi",30
+944,"Winston","Mississippi",30
+945,"Buffalo","Nebraska",30
+946,"Schoharie","New York",30
+947,"Nash","North Carolina",30
+948,"Lee","South Carolina",30
+949,"Frederick","Virginia",30
+950,"Rockingham","Virginia",30
+951,"Houston","Alabama",29
+952,"Colquitt","Georgia",29
+953,"Warrick","Indiana",29
+954,"Wabasha","Minnesota",29
+955,"Leake","Mississippi",29
+956,"Brown","Texas",29
+957,"Potter","Texas",29
+958,"Orleans","Vermont",29
+959,"Hampton","Virginia",29
+960,"Douglas","Washington",29
+961,"Graham","Arizona",28
+962,"White","Arkansas",28
+963,"Bay","Florida",28
+964,"Butts","Georgia",28
+965,"Lamar","Georgia",28
+966,"Washington","Indiana",28
+967,"Hopkins","Kentucky",28
+968,"Beauregard","Louisiana",28
+969,"Franklin","Mississippi",28
+970,"Clark","Ohio",28
+971,"Erie","Ohio",28
+972,"Greene","Pennsylvania",28
+973,"Mecklenburg","Virginia",28
+974,"Inyo","California",27
+975,"LaSalle","Illinois",27
+976,"Christian","Kentucky",27
+977,"Franklin","Kentucky",27
+978,"Jessamine","Kentucky",27
+979,"Madison","Kentucky",27
+980,"Itawamba","Mississippi",27
+981,"Camden","Missouri",27
+982,"Chautauqua","New York",27
+983,"Carroll","Ohio",27
+984,"Darke","Ohio",27
+985,"Custer","Oklahoma",27
+986,"Garvin","Oklahoma",27
+987,"Box Elder","Utah",27
+988,"Etowah","Alabama",26
+989,"Teton","Idaho",26
+990,"Christian","Illinois",26
+991,"DeKalb","Illinois",26
+992,"Putnam","Indiana",26
+993,"Bourbon","Kentucky",26
+994,"Henderson","Kentucky",26
+995,"Choctaw","Mississippi",26
+996,"Jasper","Missouri",26
+997,"Douglas","Nevada",26
+998,"Davie","North Carolina",26
+999,"Columbia","Pennsylvania",26
+1000,"McCook","South Dakota",26
+1001,"Dyer","Tennessee",26
+1002,"Taylor","Texas",26
+1003,"Adams","Washington",26
+1004,"Marshall","West Virginia",26
+1005,"Grant","Arkansas",25
+1006,"Independence","Arkansas",25
+1007,"Poinsett","Arkansas",25
+1008,"Siskiyou","California",25
+1009,"Grand","Colorado",25
+1010,"Columbia","Florida",25
+1011,"Monroe","Georgia",25
+1012,"Thomas","Georgia",25
+1013,"Jasper","Indiana",25
+1014,"Hardin","Kentucky",25
+1015,"Claiborne","Louisiana",25
+1016,"Waseca","Minnesota",25
+1017,"Lamar","Mississippi",25
+1018,"Cass","Nebraska",25
+1019,"Huron","Ohio",25
+1020,"Union","Ohio",25
+1021,"Logan","Oklahoma",25
+1022,"Abbeville","South Carolina",25
+1023,"Chesterfield","South Carolina",25
+1024,"Greenwood","South Carolina",25
+1025,"Monroe","Tennessee",25
+1026,"Wharton","Texas",25
+1027,"Walla Walla","Washington",25
+1028,"Chippewa","Wisconsin",25
+1029,"Marshall","Alabama",24
+1030,"Mohave","Arizona",24
+1031,"Yuba","California",24
+1032,"Noble","Indiana",24
+1033,"Coffey","Kansas",24
+1034,"Crawford","Kansas",24
+1035,"Morris","Kansas",24
+1036,"Garrett","Maryland",24
+1037,"Isabella","Michigan",24
+1038,"Sherburne","Minnesota",24
+1039,"Granville","North Carolina",24
+1040,"Madison","Ohio",24
+1041,"Davison","South Dakota",24
+1042,"Franklin","Tennessee",24
+1043,"Victoria","Texas",24
+1044,"Cache","Utah",24
+1045,"Prince Edward","Virginia",24
+1046,"Danville","Virginia",24
+1047,"Ohio","West Virginia",24
+1048,"Union","Arkansas",23
+1049,"Logan","Colorado",23
+1050,"Miller","Georgia",23
+1051,"Woodbury","Iowa",23
+1052,"Muhlenberg","Kentucky",23
+1053,"Emmet","Michigan",23
+1054,"Lapeer","Michigan",23
+1055,"Rice","Minnesota",23
+1056,"Winona","Minnesota",23
+1057,"Pontotoc","Mississippi",23
+1058,"Dunklin","Missouri",23
+1059,"Hamilton","New York",23
+1060,"McDowell","North Carolina",23
+1061,"Ramsey","North Dakota",23
+1062,"Greene","Ohio",23
+1063,"Bowie","Texas",23
+1064,"DeWitt","Texas",23
+1065,"Grimes","Texas",23
+1066,"Terry","Texas",23
+1067,"Washington","Texas",23
+1068,"Fauquier","Virginia",23
+1069,"Green","Wisconsin",23
+1070,"Carbon","Wyoming",23
+1071,"Blount","Alabama",22
+1072,"Juneau","Alaska",22
+1073,"Mendocino","California",22
+1074,"Madison","Idaho",22
+1075,"Gibson","Indiana",22
+1076,"Montgomery","Indiana",22
+1077,"Benton","Iowa",22
+1078,"Hancock","Iowa",22
+1079,"Kalkaska","Michigan",22
+1080,"Tuscola","Michigan",22
+1081,"Jones","Mississippi",22
+1082,"Webster","Mississippi",22
+1083,"St. Francois","Missouri",22
+1084,"Broadwater","Montana",22
+1085,"Madison","Montana",22
+1086,"Cleveland","North Carolina",22
+1087,"Oconee","South Carolina",22
+1088,"McMinn","Tennessee",22
+1089,"Marion","Tennessee",22
+1090,"Grayson","Texas",22
+1091,"Tom Green","Texas",22
+1092,"Accomack","Virginia",22
+1093,"Shenandoah","Virginia",22
+1094,"Mercer","West Virginia",22
+1095,"Tucker","West Virginia",22
+1096,"Baldwin","Georgia",21
+1097,"Whiteside","Illinois",21
+1098,"Adams","Indiana",21
+1099,"Queen Anne's","Maryland",21
+1100,"Talbot","Maryland",21
+1101,"Worcester","Maryland",21
+1102,"Grenada","Mississippi",21
+1103,"Elko","Nevada",21
+1104,"Franklin","New York",21
+1105,"Beaufort","North Carolina",21
+1106,"Bertie","North Carolina",21
+1107,"Hoke","North Carolina",21
+1108,"Wayne","Ohio",21
+1109,"Colleton","South Carolina",21
+1110,"Hamblen","Tennessee",21
+1111,"Bastrop","Texas",21
+1112,"Calhoun","Texas",21
+1113,"Eastland","Texas",21
+1114,"Rusk","Texas",21
+1115,"Washington","Alabama",20
+1116,"Cochise","Arizona",20
+1117,"Charlton","Georgia",20
+1118,"Dawson","Georgia",20
+1119,"Meriwether","Georgia",20
+1120,"Bannock","Idaho",20
+1121,"Tipton","Indiana",20
+1122,"Cherokee","Kansas",20
+1123,"Nelson","Kentucky",20
+1124,"Burke","North Carolina",20
+1125,"Montgomery","North Carolina",20
+1126,"Noble","Oklahoma",20
+1127,"Jasper","South Carolina",20
+1128,"Bon Homme","South Dakota",20
+1129,"Charles Mix","South Dakota",20
+1130,"Val Verde","Texas",20
+1131,"Bedford","Virginia",20
+1132,"Isle of Wight","Virginia",20
+1133,"Lee","Virginia",20
+1134,"San Juan","Washington",20
+1135,"Johnson","Wyoming",20
+1136,"Unassigned","Florida",20
+1137,"Unassigned","Missouri",20
+1138,"Cleburne","Alabama",19
+1139,"Franklin","Alabama",19
+1140,"Sutter","California",19
+1141,"Randolph","Georgia",19
+1142,"Winneshiek","Iowa",19
+1143,"Anderson","Kentucky",19
+1144,"Boone","Kentucky",19
+1145,"Van Buren","Michigan",19
+1146,"Union","Mississippi",19
+1147,"Newton","Missouri",19
+1148,"Scott","Missouri",19
+1149,"Toole","Montana",19
+1150,"Caldwell","North Carolina",19
+1151,"Pierce","North Dakota",19
+1152,"Ashland","Ohio",19
+1153,"Jefferson","Ohio",19
+1154,"Delaware","Oklahoma",19
+1155,"Jackson","Oklahoma",19
+1156,"Chambers","Texas",19
+1157,"Lavaca","Texas",19
+1158,"Milam","Texas",19
+1159,"Parker","Texas",19
+1160,"Culpeper","Virginia",19
+1161,"Fluvanna","Virginia",19
+1162,"Franklin","Virginia",19
+1163,"Mason","Washington",19
+1164,"Iowa","Wisconsin",19
+1165,"Wood","Wisconsin",19
+1166,"Sebastian","Arkansas",18
+1167,"Lincoln","Georgia",18
+1168,"Nez Perce","Idaho",18
+1169,"Twin Falls","Idaho",18
+1170,"Monroe","Illinois",18
+1171,"Carroll","Iowa",18
+1172,"Jasper","Iowa",18
+1173,"Marshall","Iowa",18
+1174,"Bienville","Louisiana",18
+1175,"Knox","Maine",18
+1176,"Shiawassee","Michigan",18
+1177,"Chisago","Minnesota",18
+1178,"Salem","New Jersey",18
+1179,"Hertford","North Carolina",18
+1180,"Lenoir","North Carolina",18
+1181,"Lincoln","North Carolina",18
+1182,"Transylvania","North Carolina",18
+1183,"Clinton","Ohio",18
+1184,"Logan","Ohio",18
+1185,"Pickaway","Ohio",18
+1186,"Adair","Oklahoma",18
+1187,"Grady","Oklahoma",18
+1188,"Gibson","Tennessee",18
+1189,"Atascosa","Texas",18
+1190,"Medina","Texas",18
+1191,"Walker","Texas",18
+1192,"Columbia","Washington",18
+1193,"Grays Harbor","Washington",18
+1194,"Stevens","Washington",18
+1195,"Putnam","West Virginia",18
+1196,"Dunn","Wisconsin",18
+1197,"Pike","Alabama",17
+1198,"Searcy","Arkansas",17
+1199,"Amador","California",17
+1200,"Burke","Georgia",17
+1201,"Decatur","Georgia",17
+1202,"Irwin","Georgia",17
+1203,"Madison","Georgia",17
+1204,"Seminole","Georgia",17
+1205,"Turner","Georgia",17
+1206,"Bingham","Idaho",17
+1207,"Cumberland","Illinois",17
+1208,"Jackson","Illinois",17
+1209,"Wells","Indiana",17
+1210,"Story","Iowa",17
+1211,"Mitchell","Kansas",17
+1212,"McCracken","Kentucky",17
+1213,"Gladwin","Michigan",17
+1214,"Renville","Minnesota",17
+1215,"Perry","Mississippi",17
+1216,"Quitman","Mississippi",17
+1217,"Henry","Missouri",17
+1218,"Moniteau","Missouri",17
+1219,"Robeson","North Carolina",17
+1220,"Hancock","Ohio",17
+1221,"Knox","Ohio",17
+1222,"McClain","Oklahoma",17
+1223,"Houston","Tennessee",17
+1224,"Madison","Tennessee",17
+1225,"Botetourt","Virginia",17
+1226,"Rockbridge","Virginia",17
+1227,"Lynchburg","Virginia",17
+1228,"Marengo","Alabama",16
+1229,"Santa Cruz","Arizona",16
+1230,"Desha","Arkansas",16
+1231,"Yuma","Colorado",16
+1232,"Upson","Georgia",16
+1233,"Henry","Iowa",16
+1234,"Bourbon","Kansas",16
+1235,"Scott","Kentucky",16
+1236,"Natchitoches","Louisiana",16
+1237,"Calhoun","Mississippi",16
+1238,"Marion","Mississippi",16
+1239,"Adams","Nebraska",16
+1240,"Cheshire","New Hampshire",16
+1241,"Lee","North Carolina",16
+1242,"Vance","North Carolina",16
+1243,"Mayes","Oklahoma",16
+1244,"Ottawa","Oklahoma",16
+1245,"Calhoun","South Carolina",16
+1246,"Brown","South Dakota",16
+1247,"Codington","South Dakota",16
+1248,"Lincoln","South Dakota",16
+1249,"Scott","Tennessee",16
+1250,"Manassas","Virginia",16
+1251,"Marion","West Virginia",16
+1252,"Bayfield","Wisconsin",16
+1253,"Park","Colorado",15
+1254,"Twiggs","Georgia",15
+1255,"Ware","Georgia",15
+1256,"Stephenson","Illinois",15
+1257,"Campbell","Kentucky",15
+1258,"Oldham","Kentucky",15
+1259,"Vernon","Louisiana",15
+1260,"Caroline","Maryland",15
+1261,"Benton","Minnesota",15
+1262,"Tallahatchie","Mississippi",15
+1263,"Yalobusha","Mississippi",15
+1264,"Cayuga","New York",15
+1265,"Orleans","New York",15
+1266,"Washington","Ohio",15
+1267,"Pontotoc","Oklahoma",15
+1268,"Clatsop","Oregon",15
+1269,"Bradford","Pennsylvania",15
+1270,"Clearfield","Pennsylvania",15
+1271,"Lamar","Texas",15
+1272,"Oldham","Texas",15
+1273,"Rockwall","Texas",15
+1274,"Portsmouth","Virginia",15
+1275,"Lincoln","Washington",15
+1276,"DeKalb","Alabama",14
+1277,"Lawrence","Alabama",14
+1278,"Camden","Georgia",14
+1279,"Washington","Georgia",14
+1280,"Jefferson","Idaho",14
+1281,"Marshall","Indiana",14
+1282,"Rush","Indiana",14
+1283,"Sioux","Iowa",14
+1284,"Breathitt","Kentucky",14
+1285,"Calloway","Kentucky",14
+1286,"Lyon","Kentucky",14
+1287,"Leelanau","Michigan",14
+1288,"Sanilac","Michigan",14
+1289,"Clay","Mississippi",14
+1290,"George","Mississippi",14
+1291,"Humphreys","Mississippi",14
+1292,"Montgomery","Missouri",14
+1293,"Sullivan","New Hampshire",14
+1294,"Eddy","New Mexico",14
+1295,"Pasquotank","North Carolina",14
+1296,"Sampson","North Carolina",14
+1297,"Lincoln","Oklahoma",14
+1298,"Potter","Pennsylvania",14
+1299,"Chester","Tennessee",14
+1300,"Perry","Tennessee",14
+1301,"Deaf Smith","Texas",14
+1302,"Madison","Virginia",14
+1303,"Suffolk","Virginia",14
+1304,"Bullock","Alabama",13
+1305,"Jackson","Florida",13
+1306,"Fannin","Georgia",13
+1307,"Jasper","Georgia",13
+1308,"Liberty","Georgia",13
+1309,"Stephens","Georgia",13
+1310,"Tattnall","Georgia",13
+1311,"Walton","Georgia",13
+1312,"Adams","Illinois",13
+1313,"Grundy","Illinois",13
+1314,"Livingston","Illinois",13
+1315,"Tazewell","Illinois",13
+1316,"Brown","Indiana",13
+1317,"Adair","Iowa",13
+1318,"Fayette","Iowa",13
+1319,"Catahoula","Louisiana",13
+1320,"Franklin","Louisiana",13
+1321,"Richland","Louisiana",13
+1322,"Allegan","Michigan",13
+1323,"Benton","Mississippi",13
+1324,"Prentiss","Mississippi",13
+1325,"Lea","New Mexico",13
+1326,"Rio Arriba","New Mexico",13
+1327,"Stanly","North Carolina",13
+1328,"Champaign","Ohio",13
+1329,"Crawford","Ohio",13
+1330,"Sandusky","Ohio",13
+1331,"Wasco","Oregon",13
+1332,"Blair","Pennsylvania",13
+1333,"Lycoming","Pennsylvania",13
+1334,"Somerset","Pennsylvania",13
+1335,"Newberry","South Carolina",13
+1336,"Claiborne","Tennessee",13
+1337,"Crane","Texas",13
+1338,"Fannin","Texas",13
+1339,"Kaufman","Texas",13
+1340,"Liberty","Texas",13
+1341,"Llano","Texas",13
+1342,"Van Zandt","Texas",13
+1343,"Amherst","Virginia",13
+1344,"Charles City","Virginia",13
+1345,"Prince George","Virginia",13
+1346,"Clark","Wisconsin",13
+1347,"Park","Wyoming",13
+1348,"Unassigned","California",13
+1349,"Unassigned","Montana",13
+1350,"Coosa","Alabama",12
+1351,"Dallas","Alabama",12
+1352,"Crowley","Colorado",12
+1353,"Rio Grande","Colorado",12
+1354,"Gadsden","Florida",12
+1355,"Calhoun","Georgia",12
+1356,"Catoosa","Georgia",12
+1357,"Pulaski","Georgia",12
+1358,"Washington","Illinois",12
+1359,"Monona","Iowa",12
+1360,"Jackson","Kansas",12
+1361,"Riley","Kansas",12
+1362,"Morehouse","Louisiana",12
+1363,"West Feliciana","Louisiana",12
+1364,"Waldo","Maine",12
+1365,"Kent","Maryland",12
+1366,"Cass","Michigan",12
+1367,"Ionia","Michigan",12
+1368,"Neshoba","Mississippi",12
+1369,"Simpson","Mississippi",12
+1370,"Smith","Mississippi",12
+1371,"Lincoln","Missouri",12
+1372,"Lincoln","Montana",12
+1373,"Hall","Nebraska",12
+1374,"Saunders","Nebraska",12
+1375,"San Miguel","New Mexico",12
+1376,"Shelby","Ohio",12
+1377,"Okmulgee","Oklahoma",12
+1378,"Armstrong","Pennsylvania",12
+1379,"Edgefield","South Carolina",12
+1380,"Saluda","South Carolina",12
+1381,"Lawrence","South Dakota",12
+1382,"Benton","Tennessee",12
+1383,"Roane","Tennessee",12
+1384,"Burnet","Texas",12
+1385,"Orange","Texas",12
+1386,"Caledonia","Vermont",12
+1387,"Raleigh","West Virginia",12
+1388,"Calumet","Wisconsin",12
+1389,"Marathon","Wisconsin",12
+1390,"Unassigned","Nebraska",12
+1391,"Lamar","Alabama",11
+1392,"Wilcox","Alabama",11
+1393,"Ben Hill","Georgia",11
+1394,"Harris","Georgia",11
+1395,"Heard","Georgia",11
+1396,"Dubois","Indiana",11
+1397,"Miami","Indiana",11
+1398,"Simpson","Kentucky",11
+1399,"Jackson","Louisiana",11
+1400,"Vermilion","Louisiana",11
+1401,"Newaygo","Michigan",11
+1402,"Wexford","Michigan",11
+1403,"Goodhue","Minnesota",11
+1404,"Adair","Missouri",11
+1405,"Buchanan","Missouri",11
+1406,"Clinton","Missouri",11
+1407,"Taney","Missouri",11
+1408,"Roosevelt","Montana",11
+1409,"Nemaha","Nebraska",11
+1410,"Curry","New Mexico",11
+1411,"Cattaraugus","New York",11
+1412,"Scotland","North Carolina",11
+1413,"Pottawatomie","Oklahoma",11
+1414,"Grant","Oregon",11
+1415,"Union","Oregon",11
+1416,"Crawford","Pennsylvania",11
+1417,"Chester","South Carolina",11
+1418,"Marlboro","South Carolina",11
+1419,"Cannon","Tennessee",11
+1420,"Lewis","Tennessee",11
+1421,"Ector","Texas",11
+1422,"Erath","Texas",11
+1423,"Fayette","Texas",11
+1424,"Hood","Texas",11
+1425,"Robertson","Texas",11
+1426,"San Patricio","Texas",11
+1427,"Mathews","Virginia",11
+1428,"Okanogan","Washington",11
+1429,"Juneau","Wisconsin",11
+1430,"Campbell","Wyoming",11
+1431,"Colbert","Alabama",10
+1432,"Greene","Alabama",10
+1433,"La Paz","Arizona",10
+1434,"Hinsdale","Colorado",10
+1435,"Otero","Colorado",10
+1436,"San Miguel","Colorado",10
+1437,"Bradford","Florida",10
+1438,"Baker","Georgia",10
+1439,"Greene","Georgia",10
+1440,"Jackson","Georgia",10
+1441,"Jones","Georgia",10
+1442,"Pierce","Georgia",10
+1443,"Kosciusko","Indiana",10
+1444,"Posey","Indiana",10
+1445,"Scott","Indiana",10
+1446,"Wayne","Indiana",10
+1447,"Buchanan","Iowa",10
+1448,"Martin","Kentucky",10
+1449,"Menifee","Kentucky",10
+1450,"Spencer","Kentucky",10
+1451,"Grant","Louisiana",10
+1452,"Somerset","Maryland",10
+1453,"Barry","Michigan",10
+1454,"Clare","Michigan",10
+1455,"Marquette","Michigan",10
+1456,"Jackson","Minnesota",10
+1457,"Amite","Mississippi",10
+1458,"Noxubee","Mississippi",10
+1459,"Bates","Missouri",10
+1460,"Ravalli","Montana",10
+1461,"Cibola","New Mexico",10
+1462,"Fulton","New York",10
+1463,"Allen","Ohio",10
+1464,"Athens","Ohio",10
+1465,"Gallia","Ohio",10
+1466,"Mercer","Ohio",10
+1467,"Hood River","Oregon",10
+1468,"Dillon","South Carolina",10
+1469,"Cocke","Tennessee",10
+1470,"Grundy","Tennessee",10
+1471,"Hawkins","Tennessee",10
+1472,"Macon","Tennessee",10
+1473,"Overton","Tennessee",10
+1474,"Angelina","Texas",10
+1475,"Dawson","Texas",10
+1476,"Nelson","Virginia",10
+1477,"Mason","West Virginia",10
+1478,"Wood","West Virginia",10
+1479,"Vilas","Wisconsin",10
+1480,"Clay","Alabama",9
+1481,"Boone","Arkansas",9
+1482,"Columbia","Arkansas",9
+1483,"Conway","Arkansas",9
+1484,"Greene","Arkansas",9
+1485,"Polk","Arkansas",9
+1486,"Pope","Arkansas",9
+1487,"Sevier","Arkansas",9
+1488,"Woodruff","Arkansas",9
+1489,"Chattooga","Georgia",9
+1490,"Clinch","Georgia",9
+1491,"Jo Daviess","Illinois",9
+1492,"Morgan","Illinois",9
+1493,"Williamson","Illinois",9
+1494,"Starke","Indiana",9
+1495,"Kossuth","Iowa",9
+1496,"Mahaska","Iowa",9
+1497,"Page","Iowa",9
+1498,"Laurel","Kentucky",9
+1499,"Logan","Kentucky",9
+1500,"Webster","Kentucky",9
+1501,"Jefferson Davis","Louisiana",9
+1502,"Gratiot","Michigan",9
+1503,"Roscommon","Michigan",9
+1504,"Cass","Minnesota",9
+1505,"Wright","Missouri",9
+1506,"Jefferson","Montana",9
+1507,"Dare","North Carolina",9
+1508,"Greene","North Carolina",9
+1509,"Hyde","North Carolina",9
+1510,"Muskingum","Ohio",9
+1511,"Seneca","Ohio",9
+1512,"Stephens","Oklahoma",9
+1513,"Cambria","Pennsylvania",9
+1514,"Indiana","Pennsylvania",9
+1515,"Juniata","Pennsylvania",9
+1516,"Williamsburg","South Carolina",9
+1517,"Yankton","South Dakota",9
+1518,"DeKalb","Tennessee",9
+1519,"Cass","Texas",9
+1520,"Hunt","Texas",9
+1521,"Starr","Texas",9
+1522,"Wilson","Texas",9
+1523,"San Juan","Utah",9
+1524,"Roanoke","Virginia",9
+1525,"Warren","Virginia",9
+1526,"Roanoke City","Virginia",9
+1527,"Cherokee","Alabama",8
+1528,"Pickens","Alabama",8
+1529,"Winston","Alabama",8
+1530,"Crawford","Arkansas",8
+1531,"Stone","Arkansas",8
+1532,"Franklin","Georgia",8
+1533,"Morgan","Georgia",8
+1534,"Murray","Georgia",8
+1535,"Cassia","Idaho",8
+1536,"Payette","Idaho",8
+1537,"Valley","Idaho",8
+1538,"LaGrange","Indiana",8
+1539,"Wapello","Iowa",8
+1540,"McPherson","Kansas",8
+1541,"Pottawatomie","Kansas",8
+1542,"Pointe Coupee","Louisiana",8
+1543,"Franklin","Maine",8
+1544,"Huron","Michigan",8
+1545,"Ogemaw","Michigan",8
+1546,"Beltrami","Minnesota",8
+1547,"Big Stone","Minnesota",8
+1548,"Carter","Missouri",8
+1549,"Pemiscot","Missouri",8
+1550,"Madison","Nebraska",8
+1551,"Columbus","North Carolina",8
+1552,"Halifax","North Carolina",8
+1553,"Jackson","North Carolina",8
+1554,"Mountrail","North Dakota",8
+1555,"Fulton","Ohio",8
+1556,"Highland","Ohio",8
+1557,"Nowata","Oklahoma",8
+1558,"Pittsburg","Oklahoma",8
+1559,"Sequoyah","Oklahoma",8
+1560,"Tillamook","Oregon",8
+1561,"Laurens","South Carolina",8
+1562,"Union","South Carolina",8
+1563,"Hughes","South Dakota",8
+1564,"Lyman","South Dakota",8
+1565,"Hardin","Tennessee",8
+1566,"Lincoln","Tennessee",8
+1567,"Blanco","Texas",8
+1568,"Falls","Texas",8
+1569,"Gaines","Texas",8
+1570,"Hopkins","Texas",8
+1571,"Maverick","Texas",8
+1572,"Nacogdoches","Texas",8
+1573,"King George","Virginia",8
+1574,"Northumberland","Virginia",8
+1575,"Poquoson","Virginia",8
+1576,"Hancock","West Virginia",8
+1577,"Preston","West Virginia",8
+1578,"Covington","Alabama",7
+1579,"Randolph","Alabama",7
+1580,"Cross","Arkansas",7
+1581,"Lawrence","Arkansas",7
+1582,"Pike","Arkansas",7
+1583,"Delta","Colorado",7
+1584,"Haralson","Georgia",7
+1585,"Macon","Georgia",7
+1586,"Henry","Illinois",7
+1587,"Ohio","Indiana",7
+1588,"Switzerland","Indiana",7
+1589,"Warren","Indiana",7
+1590,"Iowa","Iowa",7
+1591,"Warren","Iowa",7
+1592,"Doniphan","Kansas",7
+1593,"Montgomery","Kansas",7
+1594,"Woodson","Kansas",7
+1595,"Manistee","Michigan",7
+1596,"Oceana","Michigan",7
+1597,"Newton","Mississippi",7
+1598,"McDonald","Missouri",7
+1599,"Randolph","Missouri",7
+1600,"Stoddard","Missouri",7
+1601,"Lake","Montana",7
+1602,"Dodge","Nebraska",7
+1603,"Nye","Nevada",7
+1604,"Duplin","North Carolina",7
+1605,"Polk","North Carolina",7
+1606,"Surry","North Carolina",7
+1607,"Dunn","North Dakota",7
+1608,"Walsh","North Dakota",7
+1609,"Marion","South Carolina",7
+1610,"Brookings","South Dakota",7
+1611,"Austin","Texas",7
+1612,"Karnes","Texas",7
+1613,"Limestone","Texas",7
+1614,"Halifax","Virginia",7
+1615,"Orange","Virginia",7
+1616,"Washington","Virginia",7
+1617,"Unassigned","Maryland",7
+1618,"Butler","Alabama",6
+1619,"Choctaw","Alabama",6
+1620,"Russell","Alabama",6
+1621,"Matanuska-Susitna","Alaska",6
+1622,"Hot Spring","Arkansas",6
+1623,"Kings","California",6
+1624,"Fremont","Colorado",6
+1625,"Huerfano","Colorado",6
+1626,"Kit Carson","Colorado",6
+1627,"Suwannee","Florida",6
+1628,"Dodge","Georgia",6
+1629,"Taylor","Georgia",6
+1630,"Toombs","Georgia",6
+1631,"White","Georgia",6
+1632,"Wilkes","Georgia",6
+1633,"Fremont","Idaho",6
+1634,"Douglas","Illinois",6
+1635,"Marshall","Illinois",6
+1636,"DeKalb","Indiana",6
+1637,"Greene","Indiana",6
+1638,"Henry","Indiana",6
+1639,"Orange","Indiana",6
+1640,"Sullivan","Indiana",6
+1641,"Des Moines","Iowa",6
+1642,"Neosho","Kansas",6
+1643,"Allen","Kentucky",6
+1644,"Woodford","Kentucky",6
+1645,"LaSalle","Louisiana",6
+1646,"Winn","Louisiana",6
+1647,"Iosco","Michigan",6
+1648,"Mecosta","Michigan",6
+1649,"Chariton","Missouri",6
+1650,"Cooper","Missouri",6
+1651,"Ralls","Missouri",6
+1652,"Shelby","Missouri",6
+1653,"Hill","Montana",6
+1654,"Park","Montana",6
+1655,"Gage","Nebraska",6
+1656,"Lyon","Nevada",6
+1657,"Person","North Carolina",6
+1658,"Barnes","North Dakota",6
+1659,"Foster","North Dakota",6
+1660,"McLean","North Dakota",6
+1661,"Fayette","Ohio",6
+1662,"Lawrence","Ohio",6
+1663,"Bryan","Oklahoma",6
+1664,"Carter","Oklahoma",6
+1665,"Lincoln","Oregon",6
+1666,"Warren","Pennsylvania",6
+1667,"Hutchinson","South Dakota",6
+1668,"Meade","South Dakota",6
+1669,"Bedford","Tennessee",6
+1670,"Bledsoe","Tennessee",6
+1671,"White","Tennessee",6
+1672,"Coryell","Texas",6
+1673,"Hale","Texas",6
+1674,"Morris","Texas",6
+1675,"Navarro","Texas",6
+1676,"Shelby","Texas",6
+1677,"Waller","Texas",6
+1678,"Young","Texas",6
+1679,"Nottoway","Virginia",6
+1680,"Richmond","Virginia",6
+1681,"Fredericksburg","Virginia",6
+1682,"Radford","Virginia",6
+1683,"Greenbrier","West Virginia",6
+1684,"Logan","West Virginia",6
+1685,"Grant","Wisconsin",6
+1686,"Monroe","Wisconsin",6
+1687,"Richland","Wisconsin",6
+1688,"Albany","Wyoming",6
+1689,"Sweetwater","Wyoming",6
+1690,"Lowndes","Alabama",5
+1691,"Drew","Arkansas",5
+1692,"Hempstead","Arkansas",5
+1693,"Lonoke","Arkansas",5
+1694,"Randolph","Arkansas",5
+1695,"Washington","Colorado",5
+1696,"Levy","Florida",5
+1697,"Long","Georgia",5
+1698,"Pike","Georgia",5
+1699,"Custer","Idaho",5
+1700,"Gem","Idaho",5
+1701,"Idaho","Idaho",5
+1702,"Franklin","Illinois",5
+1703,"Iroquois","Illinois",5
+1704,"Macon","Illinois",5
+1705,"Fountain","Indiana",5
+1706,"Huntington","Indiana",5
+1707,"Appanoose","Iowa",5
+1708,"Clayton","Iowa",5
+1709,"Clinton","Iowa",5
+1710,"Shelby","Iowa",5
+1711,"Ford","Kansas",5
+1712,"Jefferson","Kansas",5
+1713,"Osage","Kansas",5
+1714,"Sumner","Kansas",5
+1715,"Madison","Louisiana",5
+1716,"Chippewa","Michigan",5
+1717,"Missaukee","Michigan",5
+1718,"Osceola","Michigan",5
+1719,"Kandiyohi","Minnesota",5
+1720,"Sibley","Minnesota",5
+1721,"Wilkin","Minnesota",5
+1722,"Atchison","Missouri",5
+1723,"Benton","Missouri",5
+1724,"Bollinger","Missouri",5
+1725,"Cedar","Missouri",5
+1726,"Meagher","Montana",5
+1727,"Valencia","New Mexico",5
+1728,"Alleghany","North Carolina",5
+1729,"Chowan","North Carolina",5
+1730,"Mitchell","North Carolina",5
+1731,"McHenry","North Dakota",5
+1732,"Auglaize","Ohio",5
+1733,"Wyandot","Ohio",5
+1734,"Craig","Oklahoma",5
+1735,"Snyder","Pennsylvania",5
+1736,"Susquehanna","Pennsylvania",5
+1737,"Union","Pennsylvania",5
+1738,"Clay","South Dakota",5
+1739,"Meigs","Tennessee",5
+1740,"Harrison","Texas",5
+1741,"Lynn","Texas",5
+1742,"Martin","Texas",5
+1743,"Swisher","Texas",5
+1744,"Uvalde","Texas",5
+1745,"Willacy","Texas",5
+1746,"Amelia","Virginia",5
+1747,"Pittsylvania","Virginia",5
+1748,"Powhatan","Virginia",5
+1749,"Hopewell","Virginia",5
+1750,"Ferry","Washington",5
+1751,"Oneida","Wisconsin",5
+1752,"Portage","Wisconsin",5
+1753,"Waupaca","Wisconsin",5
+1754,"Unassigned","Minnesota",5
+1755,"Crenshaw","Alabama",4
+1756,"Chicot","Arkansas",4
+1757,"Baca","Colorado",4
+1758,"Moffat","Colorado",4
+1759,"Hendry","Florida",4
+1760,"Washington","Florida",4
+1761,"Hart","Georgia",4
+1762,"Bonneville","Idaho",4
+1763,"Bureau","Illinois",4
+1764,"Carroll","Indiana",4
+1765,"Clinton","Indiana",4
+1766,"Fulton","Indiana",4
+1767,"Knox","Indiana",4
+1768,"Wabash","Indiana",4
+1769,"White","Indiana",4
+1770,"Butler","Iowa",4
+1771,"Dickinson","Iowa",4
+1772,"Hardin","Iowa",4
+1773,"Montgomery","Iowa",4
+1774,"Webster","Iowa",4
+1775,"Wright","Iowa",4
+1776,"Clay","Kansas",4
+1777,"Gove","Kansas",4
+1778,"Harvey","Kansas",4
+1779,"Ottawa","Kansas",4
+1780,"Breckinridge","Kentucky",4
+1781,"Bullitt","Kentucky",4
+1782,"Grayson","Kentucky",4
+1783,"Mercer","Kentucky",4
+1784,"Crawford","Michigan",4
+1785,"Gogebic","Michigan",4
+1786,"Clearwater","Minnesota",4
+1787,"Faribault","Minnesota",4
+1788,"Lincoln","Minnesota",4
+1789,"Mahnomen","Minnesota",4
+1790,"Jefferson","Mississippi",4
+1791,"Kemper","Mississippi",4
+1792,"Sharkey","Mississippi",4
+1793,"Pettis","Missouri",4
+1794,"Ray","Missouri",4
+1795,"Ripley","Missouri",4
+1796,"Texas","Missouri",4
+1797,"Warren","Missouri",4
+1798,"Kearney","Nebraska",4
+1799,"Humboldt","Nevada",4
+1800,"Schuyler","New York",4
+1801,"McIntosh","North Dakota",4
+1802,"Ottawa","Ohio",4
+1803,"Caddo","Oklahoma",4
+1804,"Cherokee","Oklahoma",4
+1805,"Choctaw","Oklahoma",4
+1806,"Garfield","Oklahoma",4
+1807,"Latimer","Oklahoma",4
+1808,"Columbia","Oregon",4
+1809,"Morrow","Oregon",4
+1810,"Aurora","South Dakota",4
+1811,"Faulk","South Dakota",4
+1812,"Todd","South Dakota",4
+1813,"Union","South Dakota",4
+1814,"Haywood","Tennessee",4
+1815,"Johnson","Tennessee",4
+1816,"Smith","Tennessee",4
+1817,"Unicoi","Tennessee",4
+1818,"Weakley","Tennessee",4
+1819,"Cherokee","Texas",4
+1820,"Jackson","Texas",4
+1821,"Lamb","Texas",4
+1822,"Montague","Texas",4
+1823,"Upshur","Texas",4
+1824,"Grand","Utah",4
+1825,"Greene","Virginia",4
+1826,"Greensville","Virginia",4
+1827,"Montgomery","Virginia",4
+1828,"Northampton","Virginia",4
+1829,"Southampton","Virginia",4
+1830,"Bristol","Virginia",4
+1831,"Galax","Virginia",4
+1832,"Winchester","Virginia",4
+1833,"Upshur","West Virginia",4
+1834,"Iron","Wisconsin",4
+1835,"Marinette","Wisconsin",4
+1836,"Goshen","Wyoming",4
+1837,"Washakie","Wyoming",4
+1838,"Unassigned","Alabama",4
+1839,"Unassigned","Utah",4
+1840,"Escambia","Alabama",3
+1841,"Monroe","Alabama",3
+1842,"Gila","Arizona",3
+1843,"Baxter","Arkansas",3
+1844,"Howard","Arkansas",3
+1845,"Johnson","Arkansas",3
+1846,"Colusa","California",3
+1847,"Alamosa","Colorado",3
+1848,"Costilla","Colorado",3
+1849,"Lincoln","Colorado",3
+1850,"Glades","Florida",3
+1851,"Chattahoochee","Georgia",3
+1852,"Jenkins","Georgia",3
+1853,"McDuffie","Georgia",3
+1854,"Lincoln","Idaho",3
+1855,"Carroll","Illinois",3
+1856,"Fayette","Illinois",3
+1857,"Crawford","Indiana",3
+1858,"Newton","Indiana",3
+1859,"Randolph","Indiana",3
+1860,"Whitley","Indiana",3
+1861,"Boone","Iowa",3
+1862,"Keokuk","Iowa",3
+1863,"Taylor","Iowa",3
+1864,"Stevens","Kansas",3
+1865,"Hancock","Kentucky",3
+1866,"McLean","Kentucky",3
+1867,"East Carroll","Louisiana",3
+1868,"St. Joseph","Michigan",3
+1869,"Isanti","Minnesota",3
+1870,"Lac qui Parle","Minnesota",3
+1871,"Clarke","Mississippi",3
+1872,"Covington","Mississippi",3
+1873,"Barry","Missouri",3
+1874,"Deer Lodge","Montana",3
+1875,"Dawson","Nebraska",3
+1876,"Roosevelt","New Mexico",3
+1877,"Alexander","North Carolina",3
+1878,"Caswell","North Carolina",3
+1879,"Edgecombe","North Carolina",3
+1880,"Perquimans","North Carolina",3
+1881,"Swain","North Carolina",3
+1882,"Yadkin","North Carolina",3
+1883,"Divide","North Dakota",3
+1884,"Sioux","North Dakota",3
+1885,"Pike","Ohio",3
+1886,"Van Wert","Ohio",3
+1887,"Le Flore","Oklahoma",3
+1888,"Cameron","Pennsylvania",3
+1889,"Clarion","Pennsylvania",3
+1890,"Huntingdon","Pennsylvania",3
+1891,"McKean","Pennsylvania",3
+1892,"Mifflin","Pennsylvania",3
+1893,"Northumberland","Pennsylvania",3
+1894,"Perry","Pennsylvania",3
+1895,"Tioga","Pennsylvania",3
+1896,"Deuel","South Dakota",3
+1897,"Hamlin","South Dakota",3
+1898,"Carter","Tennessee",3
+1899,"Decatur","Tennessee",3
+1900,"Hardeman","Tennessee",3
+1901,"Morgan","Tennessee",3
+1902,"Trousdale","Tennessee",3
+1903,"Union","Tennessee",3
+1904,"Burleson","Texas",3
+1905,"Caldwell","Texas",3
+1906,"Comanche","Texas",3
+1907,"Kleberg","Texas",3
+1908,"Polk","Texas",3
+1909,"Reeves","Texas",3
+1910,"San Jacinto","Texas",3
+1911,"Lancaster","Virginia",3
+1912,"New Kent","Virginia",3
+1913,"Tazewell","Virginia",3
+1914,"Fairfax City","Virginia",3
+1915,"Skamania","Washington",3
+1916,"Pleasants","West Virginia",3
+1917,"Converse","Wyoming",3
+1918,"Sublette","Wyoming",3
+1919,"Bibb","Alabama",2
+1920,"Macon","Alabama",2
+1921,"Ashley","Arkansas",2
+1922,"Nevada","Arkansas",2
+1923,"Glenn","California",2
+1924,"Mineral","Colorado",2
+1925,"Montezuma","Colorado",2
+1926,"Bacon","Georgia",2
+1927,"Brooks","Georgia",2
+1928,"Bulloch","Georgia",2
+1929,"Candler","Georgia",2
+1930,"Wheeler","Georgia",2
+1931,"Bonner","Idaho",2
+1932,"Owyhee","Idaho",2
+1933,"Bond","Illinois",2
+1934,"Coles","Illinois",2
+1935,"Knox","Illinois",2
+1936,"Logan","Illinois",2
+1937,"Marion","Illinois",2
+1938,"Menard","Illinois",2
+1939,"Montgomery","Illinois",2
+1940,"Randolph","Illinois",2
+1941,"Clay","Indiana",2
+1942,"Steuben","Indiana",2
+1943,"Stafford","Kansas",2
+1944,"Barren","Kentucky",2
+1945,"Boyle","Kentucky",2
+1946,"Bracken","Kentucky",2
+1947,"Butler","Kentucky",2
+1948,"Carroll","Kentucky",2
+1949,"Floyd","Kentucky",2
+1950,"Grant","Kentucky",2
+1951,"Larue","Kentucky",2
+1952,"McCreary","Kentucky",2
+1953,"Mason","Kentucky",2
+1954,"Nicholas","Kentucky",2
+1955,"Shelby","Kentucky",2
+1956,"Union","Kentucky",2
+1957,"Washington","Kentucky",2
+1958,"Wayne","Kentucky",2
+1959,"Caldwell","Louisiana",2
+1960,"Red River","Louisiana",2
+1961,"Sabine","Louisiana",2
+1962,"Somerset","Maine",2
+1963,"Antrim","Michigan",2
+1964,"Cheboygan","Michigan",2
+1965,"Cottonwood","Minnesota",2
+1966,"Douglas","Minnesota",2
+1967,"Otter Tail","Minnesota",2
+1968,"Alcorn","Mississippi",2
+1969,"Carroll","Mississippi",2
+1970,"Claiborne","Mississippi",2
+1971,"Warren","Mississippi",2
+1972,"Maries","Missouri",2
+1973,"Reynolds","Missouri",2
+1974,"Gosper","Nebraska",2
+1975,"Currituck","North Carolina",2
+1976,"Rutherford","North Carolina",2
+1977,"Washington","North Carolina",2
+1978,"Grand Forks","North Dakota",2
+1979,"Mercer","North Dakota",2
+1980,"Rogers","Oklahoma",2
+1981,"Seminole","Oklahoma",2
+1982,"Texas","Oklahoma",2
+1983,"Venango","Pennsylvania",2
+1984,"Clark","South Dakota",2
+1985,"Fall River","South Dakota",2
+1986,"Roberts","South Dakota",2
+1987,"Turner","South Dakota",2
+1988,"Coffee","Tennessee",2
+1989,"Henry","Tennessee",2
+1990,"McNairy","Tennessee",2
+1991,"Obion","Tennessee",2
+1992,"Aransas","Texas",2
+1993,"Franklin","Texas",2
+1994,"Henderson","Texas",2
+1995,"Hill","Texas",2
+1996,"Iron","Utah",2
+1997,"Wythe","Virginia",2
+1998,"Manassas Park","Virginia",2
+1999,"Petersburg","Virginia",2
+2000,"Roane","West Virginia",2
+2001,"Jackson","Wisconsin",2
+2002,"Marquette","Wisconsin",2
+2003,"Unassigned","Iowa",2
+2004,"Unassigned","Virginia",2
+2005,"Coffee","Alabama",1
+2006,"Fayette","Alabama",1
+2007,"Hale","Alabama",1
+2008,"Greenlee","Arizona",1
+2009,"Arkansas","Arkansas",1
+2010,"Perry","Arkansas",1
+2011,"Wakulla","Florida",1
+2012,"Appling","Georgia",1
+2013,"Banks","Georgia",1
+2014,"Berrien","Georgia",1
+2015,"Cook","Georgia",1
+2016,"Dooly","Georgia",1
+2017,"Gilmer","Georgia",1
+2018,"Habersham","Georgia",1
+2019,"Schley","Georgia",1
+2020,"Telfair","Georgia",1
+2021,"Warren","Georgia",1
+2022,"Clark","Illinois",1
+2023,"Crawford","Illinois",1
+2024,"Saline","Illinois",1
+2025,"Cass","Indiana",1
+2026,"Audubon","Iowa",1
+2027,"Crawford","Iowa",1
+2028,"Guthrie","Iowa",1
+2029,"Jackson","Iowa",1
+2030,"Jones","Iowa",1
+2031,"Van Buren","Iowa",1
+2032,"Atchison","Kansas",1
+2033,"Finney","Kansas",1
+2034,"Saline","Kansas",1
+2035,"Hancock","Maine",1
+2036,"Delta","Michigan",1
+2037,"Houghton","Michigan",1
+2038,"Luce","Michigan",1
+2039,"Itasca","Minnesota",1
+2040,"Meeker","Minnesota",1
+2041,"Wadena","Minnesota",1
+2042,"Watonwan","Minnesota",1
+2043,"Crawford","Missouri",1
+2044,"Livingston","Missouri",1
+2045,"Macon","Missouri",1
+2046,"Morgan","Missouri",1
+2047,"Osage","Missouri",1
+2048,"Pike","Missouri",1
+2049,"Stone","Missouri",1
+2050,"Platte","Nebraska",1
+2051,"Scotts Bluff","Nebraska",1
+2052,"York","Nebraska",1
+2053,"Coos","New Hampshire",1
+2054,"Pamlico","North Carolina",1
+2055,"Wilkes","North Carolina",1
+2056,"Oliver","North Dakota",1
+2057,"Brown","Ohio",1
+2058,"Holmes","Ohio",1
+2059,"Preble","Ohio",1
+2060,"Ross","Ohio",1
+2061,"Beckham","Oklahoma",1
+2062,"Cotton","Oklahoma",1
+2063,"Love","Oklahoma",1
+2064,"Barnwell","South Carolina",1
+2065,"Hampton","South Carolina",1
+2066,"Butte","South Dakota",1
+2067,"Marshall","South Dakota",1
+2068,"Giles","Tennessee",1
+2069,"Andrews","Texas",1
+2070,"Jasper","Texas",1
+2071,"Leon","Texas",1
+2072,"Moore","Texas",1
+2073,"Wise","Texas",1
+2074,"Yoakum","Texas",1
+2075,"Beaver","Utah",1
+2076,"Garfield","Utah",1
+2077,"Alleghany","Virginia",1
+2078,"Henry","Virginia",1
+2079,"King William","Virginia",1
+2080,"Smyth","Virginia",1
+2081,"Westmoreland","Virginia",1
+2082,"Garfield","Washington",1
+2083,"Cabell","West Virginia",1
+2084,"Morgan","West Virginia",1
+2085,"Randolph","West Virginia",1
+2086,"Wetzel","West Virginia",1
+2087,"Wirt","West Virginia",1
+2088,"Unassigned","Alaska",1
+2089,"Unassigned","Idaho",1
+2090,"","American Samoa",0
+2091,"","Northern Mariana Islands",0
+2092,"Barbour","Alabama",0
+2093,"Clarke","Alabama",0
+2094,"Conecuh","Alabama",0
+2095,"Dale","Alabama",0
+2096,"Geneva","Alabama",0
+2097,"Henry","Alabama",0
+2098,"Perry","Alabama",0
+2099,"Sumter","Alabama",0
+2100,"Aleutians East","Alaska",0
+2101,"Aleutians West","Alaska",0
+2102,"Bethel","Alaska",0
+2103,"Bristol Bay","Alaska",0
+2104,"Denali","Alaska",0
+2105,"Dillingham","Alaska",0
+2106,"Haines","Alaska",0
+2107,"Hoonah-Angoon","Alaska",0
+2108,"Kodiak Island","Alaska",0
+2109,"Kusilvak","Alaska",0
+2110,"Lake and Peninsula","Alaska",0
+2111,"Nome","Alaska",0
+2112,"North Slope","Alaska",0
+2113,"Northwest Arctic","Alaska",0
+2114,"Petersburg","Alaska",0
+2115,"Prince of Wales-Hyder","Alaska",0
+2116,"Sitka","Alaska",0
+2117,"Skagway","Alaska",0
+2118,"Southeast Fairbanks","Alaska",0
+2119,"Valdez-Cordova","Alaska",0
+2120,"Wrangell","Alaska",0
+2121,"Yakutat","Alaska",0
+2122,"Yukon-Koyukuk","Alaska",0
+2123,"Calhoun","Arkansas",0
+2124,"Carroll","Arkansas",0
+2125,"Clay","Arkansas",0
+2126,"Dallas","Arkansas",0
+2127,"Franklin","Arkansas",0
+2128,"Fulton","Arkansas",0
+2129,"Izard","Arkansas",0
+2130,"Jackson","Arkansas",0
+2131,"Lafayette","Arkansas",0
+2132,"Lee","Arkansas",0
+2133,"Little River","Arkansas",0
+2134,"Logan","Arkansas",0
+2135,"Madison","Arkansas",0
+2136,"Marion","Arkansas",0
+2137,"Miller","Arkansas",0
+2138,"Mississippi","Arkansas",0
+2139,"Monroe","Arkansas",0
+2140,"Montgomery","Arkansas",0
+2141,"Newton","Arkansas",0
+2142,"Ouachita","Arkansas",0
+2143,"Phillips","Arkansas",0
+2144,"Prairie","Arkansas",0
+2145,"St. Francis","Arkansas",0
+2146,"Scott","Arkansas",0
+2147,"Sharp","Arkansas",0
+2148,"Yell","Arkansas",0
+2149,"Alpine","California",0
+2150,"Del Norte","California",0
+2151,"Lake","California",0
+2152,"Lassen","California",0
+2153,"Mariposa","California",0
+2154,"Modoc","California",0
+2155,"Plumas","California",0
+2156,"Sierra","California",0
+2157,"Tehama","California",0
+2158,"Trinity","California",0
+2159,"Tuolumne","California",0
+2160,"Archuleta","Colorado",0
+2161,"Bent","Colorado",0
+2162,"Cheyenne","Colorado",0
+2163,"Conejos","Colorado",0
+2164,"Custer","Colorado",0
+2165,"Dolores","Colorado",0
+2166,"Gilpin","Colorado",0
+2167,"Jackson","Colorado",0
+2168,"Kiowa","Colorado",0
+2169,"Lake","Colorado",0
+2170,"Las Animas","Colorado",0
+2171,"Ouray","Colorado",0
+2172,"Phillips","Colorado",0
+2173,"Prowers","Colorado",0
+2174,"Rio Blanco","Colorado",0
+2175,"Saguache","Colorado",0
+2176,"San Juan","Colorado",0
+2177,"Sedgwick","Colorado",0
+2178,"Calhoun","Florida",0
+2179,"Dixie","Florida",0
+2180,"Franklin","Florida",0
+2181,"Gilchrist","Florida",0
+2182,"Gulf","Florida",0
+2183,"Hamilton","Florida",0
+2184,"Hardee","Florida",0
+2185,"Holmes","Florida",0
+2186,"Jefferson","Florida",0
+2187,"Lafayette","Florida",0
+2188,"Liberty","Florida",0
+2189,"Madison","Florida",0
+2190,"Okeechobee","Florida",0
+2191,"Taylor","Florida",0
+2192,"Union","Florida",0
+2193,"Atkinson","Georgia",0
+2194,"Bleckley","Georgia",0
+2195,"Brantley","Georgia",0
+2196,"Clay","Georgia",0
+2197,"Crawford","Georgia",0
+2198,"Dade","Georgia",0
+2199,"Echols","Georgia",0
+2200,"Elbert","Georgia",0
+2201,"Emanuel","Georgia",0
+2202,"Evans","Georgia",0
+2203,"Glascock","Georgia",0
+2204,"Grady","Georgia",0
+2205,"Hancock","Georgia",0
+2206,"Jeff Davis","Georgia",0
+2207,"Jefferson","Georgia",0
+2208,"Johnson","Georgia",0
+2209,"Lanier","Georgia",0
+2210,"McIntosh","Georgia",0
+2211,"Marion","Georgia",0
+2212,"Montgomery","Georgia",0
+2213,"Oglethorpe","Georgia",0
+2214,"Putnam","Georgia",0
+2215,"Quitman","Georgia",0
+2216,"Rabun","Georgia",0
+2217,"Screven","Georgia",0
+2218,"Stewart","Georgia",0
+2219,"Talbot","Georgia",0
+2220,"Taliaferro","Georgia",0
+2221,"Towns","Georgia",0
+2222,"Treutlen","Georgia",0
+2223,"Union","Georgia",0
+2224,"Walker","Georgia",0
+2225,"Wayne","Georgia",0
+2226,"Webster","Georgia",0
+2227,"Wilcox","Georgia",0
+2228,"Wilkinson","Georgia",0
+2229,"Kalawao","Hawaii",0
+2230,"Adams","Idaho",0
+2231,"Bear Lake","Idaho",0
+2232,"Benewah","Idaho",0
+2233,"Boise","Idaho",0
+2234,"Boundary","Idaho",0
+2235,"Butte","Idaho",0
+2236,"Camas","Idaho",0
+2237,"Caribou","Idaho",0
+2238,"Clark","Idaho",0
+2239,"Clearwater","Idaho",0
+2240,"Elmore","Idaho",0
+2241,"Franklin","Idaho",0
+2242,"Gooding","Idaho",0
+2243,"Jerome","Idaho",0
+2244,"Latah","Idaho",0
+2245,"Lemhi","Idaho",0
+2246,"Lewis","Idaho",0
+2247,"Minidoka","Idaho",0
+2248,"Oneida","Idaho",0
+2249,"Power","Idaho",0
+2250,"Shoshone","Idaho",0
+2251,"Washington","Idaho",0
+2252,"Alexander","Illinois",0
+2253,"Boone","Illinois",0
+2254,"Brown","Illinois",0
+2255,"Calhoun","Illinois",0
+2256,"Cass","Illinois",0
+2257,"Clay","Illinois",0
+2258,"De Witt","Illinois",0
+2259,"Edgar","Illinois",0
+2260,"Edwards","Illinois",0
+2261,"Effingham","Illinois",0
+2262,"Ford","Illinois",0
+2263,"Fulton","Illinois",0
+2264,"Gallatin","Illinois",0
+2265,"Greene","Illinois",0
+2266,"Hamilton","Illinois",0
+2267,"Hancock","Illinois",0
+2268,"Hardin","Illinois",0
+2269,"Henderson","Illinois",0
+2270,"Jasper","Illinois",0
+2271,"Jefferson","Illinois",0
+2272,"Jersey","Illinois",0
+2273,"Johnson","Illinois",0
+2274,"Lawrence","Illinois",0
+2275,"Lee","Illinois",0
+2276,"McDonough","Illinois",0
+2277,"Macoupin","Illinois",0
+2278,"Mason","Illinois",0
+2279,"Massac","Illinois",0
+2280,"Mercer","Illinois",0
+2281,"Moultrie","Illinois",0
+2282,"Ogle","Illinois",0
+2283,"Perry","Illinois",0
+2284,"Piatt","Illinois",0
+2285,"Pike","Illinois",0
+2286,"Pope","Illinois",0
+2287,"Pulaski","Illinois",0
+2288,"Putnam","Illinois",0
+2289,"Richland","Illinois",0
+2290,"Schuyler","Illinois",0
+2291,"Scott","Illinois",0
+2292,"Shelby","Illinois",0
+2293,"Stark","Illinois",0
+2294,"Union","Illinois",0
+2295,"Vermilion","Illinois",0
+2296,"Wabash","Illinois",0
+2297,"Warren","Illinois",0
+2298,"Wayne","Illinois",0
+2299,"White","Illinois",0
+2300,"Benton","Indiana",0
+2301,"Blackford","Indiana",0
+2302,"Daviess","Indiana",0
+2303,"Jay","Indiana",0
+2304,"Jefferson","Indiana",0
+2305,"Martin","Indiana",0
+2306,"Parke","Indiana",0
+2307,"Perry","Indiana",0
+2308,"Pike","Indiana",0
+2309,"Pulaski","Indiana",0
+2310,"Spencer","Indiana",0
+2311,"Union","Indiana",0
+2312,"Vermillion","Indiana",0
+2313,"Adams","Iowa",0
+2314,"Bremer","Iowa",0
+2315,"Buena Vista","Iowa",0
+2316,"Calhoun","Iowa",0
+2317,"Cass","Iowa",0
+2318,"Cherokee","Iowa",0
+2319,"Chickasaw","Iowa",0
+2320,"Clarke","Iowa",0
+2321,"Clay","Iowa",0
+2322,"Davis","Iowa",0
+2323,"Decatur","Iowa",0
+2324,"Delaware","Iowa",0
+2325,"Emmet","Iowa",0
+2326,"Floyd","Iowa",0
+2327,"Franklin","Iowa",0
+2328,"Fremont","Iowa",0
+2329,"Greene","Iowa",0
+2330,"Grundy","Iowa",0
+2331,"Hamilton","Iowa",0
+2332,"Howard","Iowa",0
+2333,"Humboldt","Iowa",0
+2334,"Ida","Iowa",0
+2335,"Jefferson","Iowa",0
+2336,"Lee","Iowa",0
+2337,"Louisa","Iowa",0
+2338,"Lucas","Iowa",0
+2339,"Lyon","Iowa",0
+2340,"Madison","Iowa",0
+2341,"Marion","Iowa",0
+2342,"Mills","Iowa",0
+2343,"Mitchell","Iowa",0
+2344,"Monroe","Iowa",0
+2345,"O'Brien","Iowa",0
+2346,"Osceola","Iowa",0
+2347,"Palo Alto","Iowa",0
+2348,"Plymouth","Iowa",0
+2349,"Pocahontas","Iowa",0
+2350,"Ringgold","Iowa",0
+2351,"Sac","Iowa",0
+2352,"Union","Iowa",0
+2353,"Wayne","Iowa",0
+2354,"Winnebago","Iowa",0
+2355,"Worth","Iowa",0
+2356,"Allen","Kansas",0
+2357,"Anderson","Kansas",0
+2358,"Barber","Kansas",0
+2359,"Barton","Kansas",0
+2360,"Brown","Kansas",0
+2361,"Chase","Kansas",0
+2362,"Chautauqua","Kansas",0
+2363,"Cheyenne","Kansas",0
+2364,"Clark","Kansas",0
+2365,"Cloud","Kansas",0
+2366,"Comanche","Kansas",0
+2367,"Cowley","Kansas",0
+2368,"Decatur","Kansas",0
+2369,"Dickinson","Kansas",0
+2370,"Edwards","Kansas",0
+2371,"Elk","Kansas",0
+2372,"Ellis","Kansas",0
+2373,"Ellsworth","Kansas",0
+2374,"Geary","Kansas",0
+2375,"Graham","Kansas",0
+2376,"Grant","Kansas",0
+2377,"Gray","Kansas",0
+2378,"Greeley","Kansas",0
+2379,"Greenwood","Kansas",0
+2380,"Hamilton","Kansas",0
+2381,"Harper","Kansas",0
+2382,"Haskell","Kansas",0
+2383,"Hodgeman","Kansas",0
+2384,"Jewell","Kansas",0
+2385,"Kearny","Kansas",0
+2386,"Kingman","Kansas",0
+2387,"Kiowa","Kansas",0
+2388,"Labette","Kansas",0
+2389,"Lane","Kansas",0
+2390,"Lincoln","Kansas",0
+2391,"Logan","Kansas",0
+2392,"Marion","Kansas",0
+2393,"Marshall","Kansas",0
+2394,"Meade","Kansas",0
+2395,"Miami","Kansas",0
+2396,"Morton","Kansas",0
+2397,"Nemaha","Kansas",0
+2398,"Ness","Kansas",0
+2399,"Norton","Kansas",0
+2400,"Osborne","Kansas",0
+2401,"Pawnee","Kansas",0
+2402,"Phillips","Kansas",0
+2403,"Pratt","Kansas",0
+2404,"Rawlins","Kansas",0
+2405,"Republic","Kansas",0
+2406,"Rice","Kansas",0
+2407,"Rooks","Kansas",0
+2408,"Rush","Kansas",0
+2409,"Russell","Kansas",0
+2410,"Scott","Kansas",0
+2411,"Seward","Kansas",0
+2412,"Sheridan","Kansas",0
+2413,"Sherman","Kansas",0
+2414,"Smith","Kansas",0
+2415,"Stanton","Kansas",0
+2416,"Thomas","Kansas",0
+2417,"Trego","Kansas",0
+2418,"Wabaunsee","Kansas",0
+2419,"Wallace","Kansas",0
+2420,"Washington","Kansas",0
+2421,"Wichita","Kansas",0
+2422,"Wilson","Kansas",0
+2423,"Adair","Kentucky",0
+2424,"Ballard","Kentucky",0
+2425,"Bath","Kentucky",0
+2426,"Bell","Kentucky",0
+2427,"Boyd","Kentucky",0
+2428,"Caldwell","Kentucky",0
+2429,"Carlisle","Kentucky",0
+2430,"Carter","Kentucky",0
+2431,"Casey","Kentucky",0
+2432,"Clay","Kentucky",0
+2433,"Clinton","Kentucky",0
+2434,"Crittenden","Kentucky",0
+2435,"Cumberland","Kentucky",0
+2436,"Edmonson","Kentucky",0
+2437,"Elliott","Kentucky",0
+2438,"Estill","Kentucky",0
+2439,"Fleming","Kentucky",0
+2440,"Fulton","Kentucky",0
+2441,"Gallatin","Kentucky",0
+2442,"Garrard","Kentucky",0
+2443,"Graves","Kentucky",0
+2444,"Green","Kentucky",0
+2445,"Greenup","Kentucky",0
+2446,"Harlan","Kentucky",0
+2447,"Hart","Kentucky",0
+2448,"Henry","Kentucky",0
+2449,"Hickman","Kentucky",0
+2450,"Jackson","Kentucky",0
+2451,"Johnson","Kentucky",0
+2452,"Knott","Kentucky",0
+2453,"Knox","Kentucky",0
+2454,"Lawrence","Kentucky",0
+2455,"Lee","Kentucky",0
+2456,"Leslie","Kentucky",0
+2457,"Letcher","Kentucky",0
+2458,"Lewis","Kentucky",0
+2459,"Lincoln","Kentucky",0
+2460,"Livingston","Kentucky",0
+2461,"Magoffin","Kentucky",0
+2462,"Marion","Kentucky",0
+2463,"Marshall","Kentucky",0
+2464,"Meade","Kentucky",0
+2465,"Metcalfe","Kentucky",0
+2466,"Monroe","Kentucky",0
+2467,"Morgan","Kentucky",0
+2468,"Ohio","Kentucky",0
+2469,"Owen","Kentucky",0
+2470,"Owsley","Kentucky",0
+2471,"Pendleton","Kentucky",0
+2472,"Perry","Kentucky",0
+2473,"Pike","Kentucky",0
+2474,"Powell","Kentucky",0
+2475,"Robertson","Kentucky",0
+2476,"Rockcastle","Kentucky",0
+2477,"Rowan","Kentucky",0
+2478,"Russell","Kentucky",0
+2479,"Taylor","Kentucky",0
+2480,"Todd","Kentucky",0
+2481,"Trigg","Kentucky",0
+2482,"Trimble","Kentucky",0
+2483,"Whitley","Kentucky",0
+2484,"Wolfe","Kentucky",0
+2485,"Cameron","Louisiana",0
+2486,"Concordia","Louisiana",0
+2487,"St. Helena","Louisiana",0
+2488,"Tensas","Louisiana",0
+2489,"West Carroll","Louisiana",0
+2490,"Aroostook","Maine",0
+2491,"Piscataquis","Maine",0
+2492,"Washington","Maine",0
+2493,"Allegany","Maryland",0
+2494,"Dorchester","Maryland",0
+2495,"Dukes","Massachusetts",0
+2496,"Nantucket","Massachusetts",0
+2497,"Alcona","Michigan",0
+2498,"Alger","Michigan",0
+2499,"Alpena","Michigan",0
+2500,"Arenac","Michigan",0
+2501,"Baraga","Michigan",0
+2502,"Benzie","Michigan",0
+2503,"Branch","Michigan",0
+2504,"Dickinson","Michigan",0
+2505,"Iron","Michigan",0
+2506,"Keweenaw","Michigan",0
+2507,"Lake","Michigan",0
+2508,"Mackinac","Michigan",0
+2509,"Mason","Michigan",0
+2510,"Menominee","Michigan",0
+2511,"Montmorency","Michigan",0
+2512,"Ontonagon","Michigan",0
+2513,"Oscoda","Michigan",0
+2514,"Presque Isle","Michigan",0
+2515,"Schoolcraft","Michigan",0
+2516,"Aitkin","Minnesota",0
+2517,"Becker","Minnesota",0
+2518,"Brown","Minnesota",0
+2519,"Carlton","Minnesota",0
+2520,"Chippewa","Minnesota",0
+2521,"Cook","Minnesota",0
+2522,"Crow Wing","Minnesota",0
+2523,"Freeborn","Minnesota",0
+2524,"Grant","Minnesota",0
+2525,"Houston","Minnesota",0
+2526,"Hubbard","Minnesota",0
+2527,"Kanabec","Minnesota",0
+2528,"Kittson","Minnesota",0
+2529,"Koochiching","Minnesota",0
+2530,"Lake","Minnesota",0
+2531,"Lake of the Woods","Minnesota",0
+2532,"Lyon","Minnesota",0
+2533,"McLeod","Minnesota",0
+2534,"Marshall","Minnesota",0
+2535,"Mille Lacs","Minnesota",0
+2536,"Morrison","Minnesota",0
+2537,"Murray","Minnesota",0
+2538,"Nobles","Minnesota",0
+2539,"Norman","Minnesota",0
+2540,"Pennington","Minnesota",0
+2541,"Pine","Minnesota",0
+2542,"Pipestone","Minnesota",0
+2543,"Polk","Minnesota",0
+2544,"Pope","Minnesota",0
+2545,"Red Lake","Minnesota",0
+2546,"Redwood","Minnesota",0
+2547,"Rock","Minnesota",0
+2548,"Roseau","Minnesota",0
+2549,"Stevens","Minnesota",0
+2550,"Swift","Minnesota",0
+2551,"Todd","Minnesota",0
+2552,"Traverse","Minnesota",0
+2553,"Yellow Medicine","Minnesota",0
+2554,"Greene","Mississippi",0
+2555,"Issaquena","Mississippi",0
+2556,"Jasper","Mississippi",0
+2557,"Jefferson Davis","Mississippi",0
+2558,"Stone","Mississippi",0
+2559,"Tishomingo","Mississippi",0
+2560,"Wayne","Mississippi",0
+2561,"Andrew","Missouri",0
+2562,"Audrain","Missouri",0
+2563,"Barton","Missouri",0
+2564,"Butler","Missouri",0
+2565,"Caldwell","Missouri",0
+2566,"Carroll","Missouri",0
+2567,"Clark","Missouri",0
+2568,"Dade","Missouri",0
+2569,"Dallas","Missouri",0
+2570,"Daviess","Missouri",0
+2571,"DeKalb","Missouri",0
+2572,"Dent","Missouri",0
+2573,"Douglas","Missouri",0
+2574,"Gasconade","Missouri",0
+2575,"Gentry","Missouri",0
+2576,"Grundy","Missouri",0
+2577,"Harrison","Missouri",0
+2578,"Hickory","Missouri",0
+2579,"Holt","Missouri",0
+2580,"Howard","Missouri",0
+2581,"Howell","Missouri",0
+2582,"Iron","Missouri",0
+2583,"Knox","Missouri",0
+2584,"Laclede","Missouri",0
+2585,"Lawrence","Missouri",0
+2586,"Lewis","Missouri",0
+2587,"Linn","Missouri",0
+2588,"Madison","Missouri",0
+2589,"Marion","Missouri",0
+2590,"Mercer","Missouri",0
+2591,"Miller","Missouri",0
+2592,"Mississippi","Missouri",0
+2593,"Monroe","Missouri",0
+2594,"New Madrid","Missouri",0
+2595,"Nodaway","Missouri",0
+2596,"Oregon","Missouri",0
+2597,"Ozark","Missouri",0
+2598,"Phelps","Missouri",0
+2599,"Polk","Missouri",0
+2600,"Putnam","Missouri",0
+2601,"St. Clair","Missouri",0
+2602,"Ste. Genevieve","Missouri",0
+2603,"Saline","Missouri",0
+2604,"Schuyler","Missouri",0
+2605,"Scotland","Missouri",0
+2606,"Shannon","Missouri",0
+2607,"Sullivan","Missouri",0
+2608,"Vernon","Missouri",0
+2609,"Washington","Missouri",0
+2610,"Wayne","Missouri",0
+2611,"Webster","Missouri",0
+2612,"Worth","Missouri",0
+2613,"Beaverhead","Montana",0
+2614,"Big Horn","Montana",0
+2615,"Blaine","Montana",0
+2616,"Carbon","Montana",0
+2617,"Carter","Montana",0
+2618,"Chouteau","Montana",0
+2619,"Custer","Montana",0
+2620,"Daniels","Montana",0
+2621,"Dawson","Montana",0
+2622,"Fallon","Montana",0
+2623,"Fergus","Montana",0
+2624,"Garfield","Montana",0
+2625,"Glacier","Montana",0
+2626,"Golden Valley","Montana",0
+2627,"Granite","Montana",0
+2628,"Judith Basin","Montana",0
+2629,"Liberty","Montana",0
+2630,"McCone","Montana",0
+2631,"Mineral","Montana",0
+2632,"Musselshell","Montana",0
+2633,"Petroleum","Montana",0
+2634,"Phillips","Montana",0
+2635,"Pondera","Montana",0
+2636,"Powder River","Montana",0
+2637,"Powell","Montana",0
+2638,"Prairie","Montana",0
+2639,"Richland","Montana",0
+2640,"Rosebud","Montana",0
+2641,"Sanders","Montana",0
+2642,"Sheridan","Montana",0
+2643,"Stillwater","Montana",0
+2644,"Sweet Grass","Montana",0
+2645,"Teton","Montana",0
+2646,"Treasure","Montana",0
+2647,"Valley","Montana",0
+2648,"Wheatland","Montana",0
+2649,"Wibaux","Montana",0
+2650,"Antelope","Nebraska",0
+2651,"Arthur","Nebraska",0
+2652,"Banner","Nebraska",0
+2653,"Blaine","Nebraska",0
+2654,"Boone","Nebraska",0
+2655,"Box Butte","Nebraska",0
+2656,"Boyd","Nebraska",0
+2657,"Brown","Nebraska",0
+2658,"Burt","Nebraska",0
+2659,"Butler","Nebraska",0
+2660,"Cedar","Nebraska",0
+2661,"Chase","Nebraska",0
+2662,"Cherry","Nebraska",0
+2663,"Cheyenne","Nebraska",0
+2664,"Clay","Nebraska",0
+2665,"Colfax","Nebraska",0
+2666,"Cuming","Nebraska",0
+2667,"Custer","Nebraska",0
+2668,"Dakota","Nebraska",0
+2669,"Dawes","Nebraska",0
+2670,"Deuel","Nebraska",0
+2671,"Dixon","Nebraska",0
+2672,"Dundy","Nebraska",0
+2673,"Fillmore","Nebraska",0
+2674,"Franklin","Nebraska",0
+2675,"Frontier","Nebraska",0
+2676,"Furnas","Nebraska",0
+2677,"Garden","Nebraska",0
+2678,"Garfield","Nebraska",0
+2679,"Grant","Nebraska",0
+2680,"Greeley","Nebraska",0
+2681,"Hamilton","Nebraska",0
+2682,"Harlan","Nebraska",0
+2683,"Hayes","Nebraska",0
+2684,"Hitchcock","Nebraska",0
+2685,"Holt","Nebraska",0
+2686,"Hooker","Nebraska",0
+2687,"Howard","Nebraska",0
+2688,"Jefferson","Nebraska",0
+2689,"Johnson","Nebraska",0
+2690,"Keith","Nebraska",0
+2691,"Keya Paha","Nebraska",0
+2692,"Kimball","Nebraska",0
+2693,"Logan","Nebraska",0
+2694,"Loup","Nebraska",0
+2695,"McPherson","Nebraska",0
+2696,"Merrick","Nebraska",0
+2697,"Morrill","Nebraska",0
+2698,"Nance","Nebraska",0
+2699,"Nuckolls","Nebraska",0
+2700,"Otoe","Nebraska",0
+2701,"Pawnee","Nebraska",0
+2702,"Perkins","Nebraska",0
+2703,"Phelps","Nebraska",0
+2704,"Pierce","Nebraska",0
+2705,"Polk","Nebraska",0
+2706,"Red Willow","Nebraska",0
+2707,"Richardson","Nebraska",0
+2708,"Rock","Nebraska",0
+2709,"Saline","Nebraska",0
+2710,"Seward","Nebraska",0
+2711,"Sheridan","Nebraska",0
+2712,"Sherman","Nebraska",0
+2713,"Sioux","Nebraska",0
+2714,"Stanton","Nebraska",0
+2715,"Thayer","Nebraska",0
+2716,"Thomas","Nebraska",0
+2717,"Thurston","Nebraska",0
+2718,"Valley","Nebraska",0
+2719,"Wayne","Nebraska",0
+2720,"Webster","Nebraska",0
+2721,"Wheeler","Nebraska",0
+2722,"Churchill","Nevada",0
+2723,"Esmeralda","Nevada",0
+2724,"Eureka","Nevada",0
+2725,"Lander","Nevada",0
+2726,"Lincoln","Nevada",0
+2727,"Mineral","Nevada",0
+2728,"Pershing","Nevada",0
+2729,"Storey","Nevada",0
+2730,"White Pine","Nevada",0
+2731,"Catron","New Mexico",0
+2732,"Colfax","New Mexico",0
+2733,"De Baca","New Mexico",0
+2734,"Grant","New Mexico",0
+2735,"Guadalupe","New Mexico",0
+2736,"Harding","New Mexico",0
+2737,"Hidalgo","New Mexico",0
+2738,"Lincoln","New Mexico",0
+2739,"Los Alamos","New Mexico",0
+2740,"Luna","New Mexico",0
+2741,"Mora","New Mexico",0
+2742,"Otero","New Mexico",0
+2743,"Quay","New Mexico",0
+2744,"Sierra","New Mexico",0
+2745,"Torrance","New Mexico",0
+2746,"Union","New Mexico",0
+2747,"Bronx","New York",0
+2748,"Kings","New York",0
+2749,"Lewis","New York",0
+2750,"Queens","New York",0
+2751,"Richmond","New York",0
+2752,"Seneca","New York",0
+2753,"Yates","New York",0
+2754,"Anson","North Carolina",0
+2755,"Ashe","North Carolina",0
+2756,"Avery","North Carolina",0
+2757,"Bladen","North Carolina",0
+2758,"Camden","North Carolina",0
+2759,"Clay","North Carolina",0
+2760,"Gates","North Carolina",0
+2761,"Graham","North Carolina",0
+2762,"Haywood","North Carolina",0
+2763,"Jones","North Carolina",0
+2764,"Macon","North Carolina",0
+2765,"Madison","North Carolina",0
+2766,"Martin","North Carolina",0
+2767,"Pender","North Carolina",0
+2768,"Richmond","North Carolina",0
+2769,"Rockingham","North Carolina",0
+2770,"Stokes","North Carolina",0
+2771,"Tyrrell","North Carolina",0
+2772,"Warren","North Carolina",0
+2773,"Yancey","North Carolina",0
+2774,"Adams","North Dakota",0
+2775,"Benson","North Dakota",0
+2776,"Billings","North Dakota",0
+2777,"Bottineau","North Dakota",0
+2778,"Bowman","North Dakota",0
+2779,"Burke","North Dakota",0
+2780,"Cavalier","North Dakota",0
+2781,"Dickey","North Dakota",0
+2782,"Eddy","North Dakota",0
+2783,"Emmons","North Dakota",0
+2784,"Golden Valley","North Dakota",0
+2785,"Grant","North Dakota",0
+2786,"Griggs","North Dakota",0
+2787,"Hettinger","North Dakota",0
+2788,"Kidder","North Dakota",0
+2789,"LaMoure","North Dakota",0
+2790,"Logan","North Dakota",0
+2791,"McKenzie","North Dakota",0
+2792,"Nelson","North Dakota",0
+2793,"Pembina","North Dakota",0
+2794,"Ransom","North Dakota",0
+2795,"Renville","North Dakota",0
+2796,"Richland","North Dakota",0
+2797,"Rolette","North Dakota",0
+2798,"Sargent","North Dakota",0
+2799,"Sheridan","North Dakota",0
+2800,"Slope","North Dakota",0
+2801,"Steele","North Dakota",0
+2802,"Stutsman","North Dakota",0
+2803,"Towner","North Dakota",0
+2804,"Traill","North Dakota",0
+2805,"Wells","North Dakota",0
+2806,"Williams","North Dakota",0
+2807,"Adams","Ohio",0
+2808,"Guernsey","Ohio",0
+2809,"Hardin","Ohio",0
+2810,"Harrison","Ohio",0
+2811,"Henry","Ohio",0
+2812,"Hocking","Ohio",0
+2813,"Jackson","Ohio",0
+2814,"Meigs","Ohio",0
+2815,"Monroe","Ohio",0
+2816,"Morgan","Ohio",0
+2817,"Morrow","Ohio",0
+2818,"Noble","Ohio",0
+2819,"Paulding","Ohio",0
+2820,"Perry","Ohio",0
+2821,"Putnam","Ohio",0
+2822,"Scioto","Ohio",0
+2823,"Vinton","Ohio",0
+2824,"Williams","Ohio",0
+2825,"Alfalfa","Oklahoma",0
+2826,"Atoka","Oklahoma",0
+2827,"Beaver","Oklahoma",0
+2828,"Blaine","Oklahoma",0
+2829,"Cimarron","Oklahoma",0
+2830,"Coal","Oklahoma",0
+2831,"Dewey","Oklahoma",0
+2832,"Ellis","Oklahoma",0
+2833,"Grant","Oklahoma",0
+2834,"Greer","Oklahoma",0
+2835,"Harmon","Oklahoma",0
+2836,"Harper","Oklahoma",0
+2837,"Haskell","Oklahoma",0
+2838,"Hughes","Oklahoma",0
+2839,"Jefferson","Oklahoma",0
+2840,"Johnston","Oklahoma",0
+2841,"Kingfisher","Oklahoma",0
+2842,"Kiowa","Oklahoma",0
+2843,"McCurtain","Oklahoma",0
+2844,"McIntosh","Oklahoma",0
+2845,"Major","Oklahoma",0
+2846,"Marshall","Oklahoma",0
+2847,"Murray","Oklahoma",0
+2848,"Okfuskee","Oklahoma",0
+2849,"Pushmataha","Oklahoma",0
+2850,"Roger Mills","Oklahoma",0
+2851,"Tillman","Oklahoma",0
+2852,"Washita","Oklahoma",0
+2853,"Woods","Oklahoma",0
+2854,"Woodward","Oklahoma",0
+2855,"Baker","Oregon",0
+2856,"Coos","Oregon",0
+2857,"Crook","Oregon",0
+2858,"Curry","Oregon",0
+2859,"Gilliam","Oregon",0
+2860,"Harney","Oregon",0
+2861,"Jefferson","Oregon",0
+2862,"Lake","Oregon",0
+2863,"Malheur","Oregon",0
+2864,"Sherman","Oregon",0
+2865,"Wallowa","Oregon",0
+2866,"Wheeler","Oregon",0
+2867,"Bedford","Pennsylvania",0
+2868,"Clinton","Pennsylvania",0
+2869,"Elk","Pennsylvania",0
+2870,"Forest","Pennsylvania",0
+2871,"Fulton","Pennsylvania",0
+2872,"Jefferson","Pennsylvania",0
+2873,"Sullivan","Pennsylvania",0
+2874,"Wyoming","Pennsylvania",0
+2875,"Allendale","South Carolina",0
+2876,"Bamberg","South Carolina",0
+2877,"Cherokee","South Carolina",0
+2878,"McCormick","South Carolina",0
+2879,"Bennett","South Dakota",0
+2880,"Brule","South Dakota",0
+2881,"Buffalo","South Dakota",0
+2882,"Campbell","South Dakota",0
+2883,"Corson","South Dakota",0
+2884,"Custer","South Dakota",0
+2885,"Day","South Dakota",0
+2886,"Dewey","South Dakota",0
+2887,"Douglas","South Dakota",0
+2888,"Edmunds","South Dakota",0
+2889,"Grant","South Dakota",0
+2890,"Gregory","South Dakota",0
+2891,"Haakon","South Dakota",0
+2892,"Hand","South Dakota",0
+2893,"Hanson","South Dakota",0
+2894,"Harding","South Dakota",0
+2895,"Hyde","South Dakota",0
+2896,"Jackson","South Dakota",0
+2897,"Jerauld","South Dakota",0
+2898,"Jones","South Dakota",0
+2899,"Kingsbury","South Dakota",0
+2900,"Lake","South Dakota",0
+2901,"McPherson","South Dakota",0
+2902,"Mellette","South Dakota",0
+2903,"Miner","South Dakota",0
+2904,"Moody","South Dakota",0
+2905,"Oglala Lakota","South Dakota",0
+2906,"Perkins","South Dakota",0
+2907,"Potter","South Dakota",0
+2908,"Sanborn","South Dakota",0
+2909,"Spink","South Dakota",0
+2910,"Stanley","South Dakota",0
+2911,"Sully","South Dakota",0
+2912,"Tripp","South Dakota",0
+2913,"Walworth","South Dakota",0
+2914,"Ziebach","South Dakota",0
+2915,"Clay","Tennessee",0
+2916,"Crockett","Tennessee",0
+2917,"Fentress","Tennessee",0
+2918,"Grainger","Tennessee",0
+2919,"Hancock","Tennessee",0
+2920,"Henderson","Tennessee",0
+2921,"Hickman","Tennessee",0
+2922,"Humphreys","Tennessee",0
+2923,"Jackson","Tennessee",0
+2924,"Lake","Tennessee",0
+2925,"Lauderdale","Tennessee",0
+2926,"Lawrence","Tennessee",0
+2927,"Marshall","Tennessee",0
+2928,"Moore","Tennessee",0
+2929,"Pickett","Tennessee",0
+2930,"Polk","Tennessee",0
+2931,"Rhea","Tennessee",0
+2932,"Sequatchie","Tennessee",0
+2933,"Stewart","Tennessee",0
+2934,"Van Buren","Tennessee",0
+2935,"Warren","Tennessee",0
+2936,"Wayne","Tennessee",0
+2937,"Anderson","Texas",0
+2938,"Archer","Texas",0
+2939,"Armstrong","Texas",0
+2940,"Bailey","Texas",0
+2941,"Bandera","Texas",0
+2942,"Baylor","Texas",0
+2943,"Bee","Texas",0
+2944,"Borden","Texas",0
+2945,"Bosque","Texas",0
+2946,"Brewster","Texas",0
+2947,"Briscoe","Texas",0
+2948,"Brooks","Texas",0
+2949,"Callahan","Texas",0
+2950,"Camp","Texas",0
+2951,"Carson","Texas",0
+2952,"Childress","Texas",0
+2953,"Clay","Texas",0
+2954,"Cochran","Texas",0
+2955,"Coke","Texas",0
+2956,"Coleman","Texas",0
+2957,"Collingsworth","Texas",0
+2958,"Colorado","Texas",0
+2959,"Concho","Texas",0
+2960,"Cooke","Texas",0
+2961,"Cottle","Texas",0
+2962,"Crockett","Texas",0
+2963,"Crosby","Texas",0
+2964,"Culberson","Texas",0
+2965,"Dallam","Texas",0
+2966,"Delta","Texas",0
+2967,"Dickens","Texas",0
+2968,"Dimmit","Texas",0
+2969,"Donley","Texas",0
+2970,"Duval","Texas",0
+2971,"Edwards","Texas",0
+2972,"Fisher","Texas",0
+2973,"Floyd","Texas",0
+2974,"Foard","Texas",0
+2975,"Freestone","Texas",0
+2976,"Frio","Texas",0
+2977,"Garza","Texas",0
+2978,"Gillespie","Texas",0
+2979,"Glasscock","Texas",0
+2980,"Goliad","Texas",0
+2981,"Gonzales","Texas",0
+2982,"Gray","Texas",0
+2983,"Hall","Texas",0
+2984,"Hamilton","Texas",0
+2985,"Hansford","Texas",0
+2986,"Hardeman","Texas",0
+2987,"Hartley","Texas",0
+2988,"Haskell","Texas",0
+2989,"Hemphill","Texas",0
+2990,"Houston","Texas",0
+2991,"Howard","Texas",0
+2992,"Hudspeth","Texas",0
+2993,"Hutchinson","Texas",0
+2994,"Irion","Texas",0
+2995,"Jack","Texas",0
+2996,"Jeff Davis","Texas",0
+2997,"Jim Hogg","Texas",0
+2998,"Jim Wells","Texas",0
+2999,"Jones","Texas",0
+3000,"Kenedy","Texas",0
+3001,"Kent","Texas",0
+3002,"Kerr","Texas",0
+3003,"Kimble","Texas",0
+3004,"King","Texas",0
+3005,"Kinney","Texas",0
+3006,"Knox","Texas",0
+3007,"Lampasas","Texas",0
+3008,"La Salle","Texas",0
+3009,"Lee","Texas",0
+3010,"Lipscomb","Texas",0
+3011,"Live Oak","Texas",0
+3012,"Loving","Texas",0
+3013,"McCulloch","Texas",0
+3014,"McMullen","Texas",0
+3015,"Madison","Texas",0
+3016,"Marion","Texas",0
+3017,"Mason","Texas",0
+3018,"Menard","Texas",0
+3019,"Mills","Texas",0
+3020,"Mitchell","Texas",0
+3021,"Motley","Texas",0
+3022,"Newton","Texas",0
+3023,"Nolan","Texas",0
+3024,"Ochiltree","Texas",0
+3025,"Palo Pinto","Texas",0
+3026,"Panola","Texas",0
+3027,"Parmer","Texas",0
+3028,"Pecos","Texas",0
+3029,"Presidio","Texas",0
+3030,"Rains","Texas",0
+3031,"Reagan","Texas",0
+3032,"Real","Texas",0
+3033,"Red River","Texas",0
+3034,"Refugio","Texas",0
+3035,"Roberts","Texas",0
+3036,"Runnels","Texas",0
+3037,"Sabine","Texas",0
+3038,"San Augustine","Texas",0
+3039,"San Saba","Texas",0
+3040,"Schleicher","Texas",0
+3041,"Scurry","Texas",0
+3042,"Shackelford","Texas",0
+3043,"Sherman","Texas",0
+3044,"Somervell","Texas",0
+3045,"Stephens","Texas",0
+3046,"Sterling","Texas",0
+3047,"Stonewall","Texas",0
+3048,"Sutton","Texas",0
+3049,"Terrell","Texas",0
+3050,"Throckmorton","Texas",0
+3051,"Titus","Texas",0
+3052,"Trinity","Texas",0
+3053,"Tyler","Texas",0
+3054,"Upton","Texas",0
+3055,"Ward","Texas",0
+3056,"Wheeler","Texas",0
+3057,"Wilbarger","Texas",0
+3058,"Winkler","Texas",0
+3059,"Wood","Texas",0
+3060,"Zapata","Texas",0
+3061,"Zavala","Texas",0
+3062,"Carbon","Utah",0
+3063,"Daggett","Utah",0
+3064,"Duchesne","Utah",0
+3065,"Emery","Utah",0
+3066,"Juab","Utah",0
+3067,"Kane","Utah",0
+3068,"Millard","Utah",0
+3069,"Morgan","Utah",0
+3070,"Piute","Utah",0
+3071,"Rich","Utah",0
+3072,"Sanpete","Utah",0
+3073,"Sevier","Utah",0
+3074,"Uintah","Utah",0
+3075,"Wayne","Utah",0
+3076,"Essex","Vermont",0
+3077,"Grand Isle","Vermont",0
+3078,"Appomattox","Virginia",0
+3079,"Augusta","Virginia",0
+3080,"Bath","Virginia",0
+3081,"Bland","Virginia",0
+3082,"Brunswick","Virginia",0
+3083,"Buchanan","Virginia",0
+3084,"Buckingham","Virginia",0
+3085,"Campbell","Virginia",0
+3086,"Caroline","Virginia",0
+3087,"Carroll","Virginia",0
+3088,"Charlotte","Virginia",0
+3089,"Clarke","Virginia",0
+3090,"Craig","Virginia",0
+3091,"Cumberland","Virginia",0
+3092,"Dickenson","Virginia",0
+3093,"Dinwiddie","Virginia",0
+3094,"Essex","Virginia",0
+3095,"Floyd","Virginia",0
+3096,"Giles","Virginia",0
+3097,"Grayson","Virginia",0
+3098,"Highland","Virginia",0
+3099,"King and Queen","Virginia",0
+3100,"Lunenburg","Virginia",0
+3101,"Middlesex","Virginia",0
+3102,"Page","Virginia",0
+3103,"Patrick","Virginia",0
+3104,"Pulaski","Virginia",0
+3105,"Rappahannock","Virginia",0
+3106,"Russell","Virginia",0
+3107,"Scott","Virginia",0
+3108,"Surry","Virginia",0
+3109,"Sussex","Virginia",0
+3110,"Wise","Virginia",0
+3111,"Buena Vista","Virginia",0
+3112,"Colonial Heights","Virginia",0
+3113,"Covington","Virginia",0
+3114,"Emporia","Virginia",0
+3115,"Falls Church","Virginia",0
+3116,"Franklin City","Virginia",0
+3117,"Lexington","Virginia",0
+3118,"Martinsville","Virginia",0
+3119,"Norton","Virginia",0
+3120,"Salem","Virginia",0
+3121,"Staunton","Virginia",0
+3122,"Waynesboro","Virginia",0
+3123,"Asotin","Washington",0
+3124,"Pacific","Washington",0
+3125,"Pend Oreille","Washington",0
+3126,"Wahkiakum","Washington",0
+3127,"Barbour","West Virginia",0
+3128,"Boone","West Virginia",0
+3129,"Braxton","West Virginia",0
+3130,"Brooke","West Virginia",0
+3131,"Calhoun","West Virginia",0
+3132,"Clay","West Virginia",0
+3133,"Doddridge","West Virginia",0
+3134,"Fayette","West Virginia",0
+3135,"Gilmer","West Virginia",0
+3136,"Grant","West Virginia",0
+3137,"Hampshire","West Virginia",0
+3138,"Hardy","West Virginia",0
+3139,"Lewis","West Virginia",0
+3140,"Lincoln","West Virginia",0
+3141,"McDowell","West Virginia",0
+3142,"Mineral","West Virginia",0
+3143,"Mingo","West Virginia",0
+3144,"Monroe","West Virginia",0
+3145,"Nicholas","West Virginia",0
+3146,"Pendleton","West Virginia",0
+3147,"Pocahontas","West Virginia",0
+3148,"Ritchie","West Virginia",0
+3149,"Summers","West Virginia",0
+3150,"Taylor","West Virginia",0
+3151,"Tyler","West Virginia",0
+3152,"Wayne","West Virginia",0
+3153,"Webster","West Virginia",0
+3154,"Wyoming","West Virginia",0
+3155,"Adams","Wisconsin",0
+3156,"Ashland","Wisconsin",0
+3157,"Barron","Wisconsin",0
+3158,"Buffalo","Wisconsin",0
+3159,"Burnett","Wisconsin",0
+3160,"Crawford","Wisconsin",0
+3161,"Door","Wisconsin",0
+3162,"Florence","Wisconsin",0
+3163,"Forest","Wisconsin",0
+3164,"Green Lake","Wisconsin",0
+3165,"Kewaunee","Wisconsin",0
+3166,"Lafayette","Wisconsin",0
+3167,"Langlade","Wisconsin",0
+3168,"Lincoln","Wisconsin",0
+3169,"Manitowoc","Wisconsin",0
+3170,"Menominee","Wisconsin",0
+3171,"Oconto","Wisconsin",0
+3172,"Pepin","Wisconsin",0
+3173,"Polk","Wisconsin",0
+3174,"Price","Wisconsin",0
+3175,"Rusk","Wisconsin",0
+3176,"Sawyer","Wisconsin",0
+3177,"Shawano","Wisconsin",0
+3178,"Taylor","Wisconsin",0
+3179,"Trempealeau","Wisconsin",0
+3180,"Vernon","Wisconsin",0
+3181,"Washburn","Wisconsin",0
+3182,"Waushara","Wisconsin",0
+3183,"Big Horn","Wyoming",0
+3184,"Crook","Wyoming",0
+3185,"Hot Springs","Wyoming",0
+3186,"Lincoln","Wyoming",0
+3187,"Niobrara","Wyoming",0
+3188,"Platte","Wyoming",0
+3189,"Uinta","Wyoming",0
+3190,"Weston","Wyoming",0
+3191,"Out of AL","Alabama",0
+3192,"Out of AK","Alaska",0
+3193,"Out of AZ","Arizona",0
+3194,"Out of AR","Arkansas",0
+3195,"Out of CA","California",0
+3196,"Out of CO","Colorado",0
+3197,"Out of CT","Connecticut",0
+3198,"Out of DE","Delaware",0
+3199,"Out of DC","District of Columbia",0
+3200,"Out of FL","Florida",0
+3201,"Out of GA","Georgia",0
+3202,"Out of HI","Hawaii",0
+3203,"Out of ID","Idaho",0
+3204,"Out of IL","Illinois",0
+3205,"Out of IN","Indiana",0
+3206,"Out of IA","Iowa",0
+3207,"Out of KS","Kansas",0
+3208,"Out of KY","Kentucky",0
+3209,"Out of LA","Louisiana",0
+3210,"Out of ME","Maine",0
+3211,"Out of MD","Maryland",0
+3212,"Out of MA","Massachusetts",0
+3213,"Out of MN","Minnesota",0
+3214,"Out of MS","Mississippi",0
+3215,"Out of MO","Missouri",0
+3216,"Out of MT","Montana",0
+3217,"Out of NE","Nebraska",0
+3218,"Out of NV","Nevada",0
+3219,"Out of NH","New Hampshire",0
+3220,"Out of NJ","New Jersey",0
+3221,"Out of NM","New Mexico",0
+3222,"Out of NY","New York",0
+3223,"Out of NC","North Carolina",0
+3224,"Out of ND","North Dakota",0
+3225,"Out of OH","Ohio",0
+3226,"Out of OK","Oklahoma",0
+3227,"Out of OR","Oregon",0
+3228,"Out of PA","Pennsylvania",0
+3229,"Out of RI","Rhode Island",0
+3230,"Out of SC","South Carolina",0
+3231,"Out of SD","South Dakota",0
+3232,"Out of TX","Texas",0
+3233,"Out of VT","Vermont",0
+3234,"Out of VA","Virginia",0
+3235,"Out of WA","Washington",0
+3236,"Out of WV","West Virginia",0
+3237,"Out of WI","Wisconsin",0
+3238,"Out of WY","Wyoming",0
+3239,"Unassigned","Arizona",0
+3240,"Unassigned","Delaware",0
+3241,"Unassigned","District of Columbia",0
+3242,"Unassigned","Kansas",0
+3243,"Unassigned","New Mexico",0
+3244,"Unassigned","North Carolina",0
+3245,"Unassigned","North Dakota",0
+3246,"Unassigned","Ohio",0
+3247,"Unassigned","Oklahoma",0
+3248,"Unassigned","Oregon",0
+3249,"Unassigned","Pennsylvania",0
+3250,"Unassigned","South Carolina",0
+3251,"Unassigned","South Dakota",0
+3252,"Unassigned","West Virginia",0
+3253,"Unassigned","Wyoming",0
