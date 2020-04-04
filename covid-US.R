@@ -17,7 +17,7 @@ date <- 1:(ncol(raw)-11)
 date <- as.Date(date,origin = "2020-01-20")
 format(date,format = "%b %d %y")
 #time plot of total cases by day
-plot(date,daysums,main="total US cases",ylab = "new cases",xlab = "date",type="o")
+plot(date,daysums,main="total US cases as of 3/30",ylab = "new cases",xlab = "date",type="o")
 placesum <- rep(0,nrow(raw))
 #summing the cases by place
 for (i in 1:nrow(raw)){
