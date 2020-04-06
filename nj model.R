@@ -45,6 +45,40 @@ model <- function(degree,log){
     qqnorm(p$residuals,main="qqplot")
   }
 }
-for (i in 1:10){
-  model(i,"yes")
+#for (i in 1:10){
+ # model(i,"yes")
+#}
+
+#lets try this but remove dates with zero cases:
+df<- data.frame(date,daynj,daynewnj)
+df<- df[which(df$daynj != 0),]
+plot(df$date,df$daynj,main="truncated cases",type="o")
+plot(df$date,df$daynewnj,main="truncated new daily cases",type="o")
+
+#new function
+trucmodel <- function(degree,log){
+  if (log == "no"){
+    p <- lm(df$daynj~poly(df$date,degree))
+    print(summary(p))
+    main = paste("observed vs predicted, poly order: ",i)
+    plot(df$date,df$daynj,main = main,ylab="cases",col="black")
+    lines(df$date,predict(p),col="blue")
+    plot(df$date,p$residuals,main="residual plot")
+    qqnorm(p$residuals,main="qqplot")
+  }
+  if (log == "yes"){
+    logdaynj <- log(.1*df$daynj+1)
+    p <- lm(logdaynj~poly(df$date,degree))
+    print(summary(p))
+    main = paste("observed vs predicted, log order :",i)
+    plot(df$date,logdaynj,main = main,ylab="cases",col="black")
+    lines(df$date,predict(p),col="blue")
+    plot(df$date,p$residuals,main="residual plot")
+    qqnorm(p$residuals,main="qqplot")
+  }
 }
+for(i in 1:10){trucmodel(i,"no")}
+for(i in 1:10){trucmodel(i,"yes")}
+#a truncated 4th order log model seems to be the best
+trucmodel(4,"yes")
+model(4,"yes")
