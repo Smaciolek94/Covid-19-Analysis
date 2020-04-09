@@ -17,19 +17,15 @@ date <- 1:n
 date <- as.Date(date,origin = "2020-01-21")
 format(date,format = "%b %d %y")
 
-countryplot <- function(region){
+countryplot <- function(region,cd){
   cases <- rep(0,n)
   newcases <- rep(0,n)
   deaths <- rep(0,n)
   newdeaths <- rep(0,n)
-  cases <- as.numeric(cases)
-  newcases <- as.numeric(newcases)
-  deaths <- as.numeric(deaths)
-  newdeaths <- as.numeric(newdeaths)
   regioncase <- rawcases[which(rawcases$Country.Region==region),]
   regiondeath <- rawdeaths[which(rawdeaths$Country.Region==region),]
-  regioncase <- as.numeric(regioncase)
-  regiondeath <- as.numeric(regiondeath)
+  #regioncase <- as.numeric(regioncase)
+  #regiondeath <- as.numeric(regiondeath)
   for (i in 1:n){
     cases[i] <- sum(regioncase[i+2])
     deaths[i] <- sum(regiondeath[i+2])
@@ -44,10 +40,14 @@ countryplot <- function(region){
   main2 <- paste("Total Deaths in:",region,date[n])
   main3 <- paste("New Cases in:",region,date[n])
   main4 <- paste("New Deaths in",region,date[n])
-  plot(date,cases,main=main1,ylab="cases",type="o")
-  plot(date,deaths,main=main2,ylab="deaths",type="o")
-  plot(date,newcases,main=main3,ylab="cases",type="o")
+  #plot(date,cases,main=main1,ylab="cases",type="o")
+  #plot(date,deaths,main=main2,ylab="deaths",type="o")
+  if (cd=="c"){
+    plot(date,newcases,main=main3,ylab="cases",type="o")
+  }
+  if (cd=="d"){
   plot(date,newdeaths,main=main4,ylab="deaths",type="o")
+  }
 }
 
 stateplot <- function(region){
@@ -76,7 +76,7 @@ stateplot <- function(region){
   main1 <- paste("Total Cases in:",region,date[n])
   main2 <- paste("Total Deaths in:",region,date[n])
   main3 <- paste("New Cases in:",region,date[n])
-  main4 <- paste("New Deaths in",region,date[n])
+  main4 <- paste("New Deaths in:",region,date[n])
   plot(date,cases,main=main1,ylab="cases",type="o")
   plot(date,deaths,main=main2,ylab="deaths",type="o")
   plot(date,newcases,main=main3,ylab="cases",type="o")
@@ -107,7 +107,7 @@ townplot <- function(county,region){
   main1 <- paste("Total Cases in:",county,region,date[n])
   main2 <- paste("Total Deaths in:",county,region,date[n])
   main3 <- paste("New Cases in:",county,region,date[n])
-  main4 <- paste("New Deaths in",county,region,date[n])
+  main4 <- paste("New Deaths in:",county,region,date[n])
   plot(date,cases,main=main1,ylab="cases",type="o")
   plot(date,deaths,main=main2,ylab="deaths",type="o")
   plot(date,newcases,main=main3,ylab="cases",type="o")
