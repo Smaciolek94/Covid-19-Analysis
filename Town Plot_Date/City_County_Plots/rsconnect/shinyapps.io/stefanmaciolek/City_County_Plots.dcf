@@ -5,9 +5,9 @@ account: stefanmaciolek
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2088001
-bundleId: 2994052
+bundleId: 2992502
 url: https://stefanmaciolek.shinyapps.io/City_County_Plots/
-when: 1586469255.47832
-lastSyncTime: 1586469255.47832
+when: 1586444594.42306
+lastSyncTime: 1586444594.42306
 asMultiple: FALSE
 asStatic: FALSE

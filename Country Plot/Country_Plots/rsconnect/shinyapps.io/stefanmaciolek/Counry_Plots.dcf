@@ -5,9 +5,9 @@ account: stefanmaciolek
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2087520
-bundleId: 2992244
+bundleId: 2994066
 url: https://stefanmaciolek.shinyapps.io/Counry_Plots/
-when: 1586440936.46866
-lastSyncTime: 1586440936.46866
+when: 1586469534.22946
+lastSyncTime: 1586469534.22946
 asMultiple: FALSE
 asStatic: FALSE

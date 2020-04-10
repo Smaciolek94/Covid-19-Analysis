@@ -10,7 +10,7 @@ date <- 1:n
 date <- as.Date(date,origin = "2020-01-21")
 format(date,format = "%b %d %y")
 
-townplot <- function(location,cd){
+townplot <- function(location,cd,start){
     cases <- rep(0,n)
     newcases <- rep(0,n)
     deaths <- rep(0,n)
@@ -30,16 +30,16 @@ townplot <- function(location,cd){
     main3 <- paste("New Cases in:",location,date[n])
     main4 <- paste("New Deaths in:",location,date[n])
     if (cd=="a"){
-        plot(date,cases,main=main1,ylab="cases",type="o")
+        plot(date[start:n],cases[start:n],main=main1,ylab="cases",ylim = c(date[start],date[n]),type="o")
     }
     if (cd=="b"){
-        plot(date,deaths,main=main2,ylab="deaths",type="o")
+        plot(date[start:n],deaths[start:n],main=main2,ylab="deaths",ylim = c(date[start],date[n]),type="o")
     }
     if (cd=="c"){
-        plot(date,newcases,main=main3,ylab="cases",type="o")
+        plot(date[start:n],newcases[start:n],main=main3,ylab="cases",ylim = c(date[start],date[n]),type="o")
     }
     if (cd=="d"){
-        plot(date,newdeaths,main=main4,ylab="deaths",type="o")
+        plot(date[start:n],newdeaths[start:n],main=main4,ylab="deaths",ylim = c(date[start],date[n]),type="o")
     }
 }
 
@@ -47,8 +47,12 @@ library(shiny)
 
 ui <- fluidPage(
     titlePanel("Case and Death Plots by County/City"),
-    mainPanel("Data From Johns Hopkins CSSE, for educational/research use only"),
     selectizeInput(inputId = "location",label = "Choose Your Location",choices = location,options= list(maxOptions = 3253)),
+    sliderInput(inputId = "Start",
+                label= "Choose your start date: ",
+                min = date[1],
+                max = date[n],
+                value = date[1]),
     plotOutput("plot1"),
     plotOutput("plot2"),
     plotOutput("plot3"),
@@ -57,16 +61,16 @@ ui <- fluidPage(
 
 server <- function(input,output){
     output$plot1<-renderPlot({
-        townplot(input$location,"a")
+        townplot(input$location,"a",input$Start)
     })
     output$plot2<-renderPlot({
-        townplot(input$location,"b")
+        townplot(input$location,"b",input$Start)
     })
     output$plot3<-renderPlot({
-        townplot(input$location,"c")
+        townplot(input$location,"c",input$Start)
     })
     output$plot4<-renderPlot({
-        townplot(input$location,"d")
+        townplot(input$location,"d",input$Start)
     })
 }
 

@@ -142,6 +142,7 @@ library(shiny)
 
 ui <- fluidPage(
     titlePanel("Case and Death Plots by Country"),
+    mainPanel("Data From Johns Hopkins CSSE, for educational/research use only"),
     selectInput(inputId = "country",label = "Choose Your Country",choices = countrynames),
     plotOutput("plot1"),
     plotOutput("plot2"),
