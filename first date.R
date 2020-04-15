@@ -40,3 +40,16 @@ max <- as.Date(max,origin = "1970-01-01")
 max <- data.frame(uscases$Combined_Key,max)
 max <- max[which(max$max!="1970-01-01"),]
 hist(max$max,breaks=n/2,main="Histogram of the date of peak new daily cases in the US",ylab="number of counties/cities",xlab="Date of Peak New Cases",freq=TRUE)
+
+
+deaths <- usdeaths[,n+2]
+cases <- uscases[,n+1]
+population <- usdeaths[,2]
+
+percentdeaths <- deaths/population *100
+percentcases <- cases/population *100
+percentcasedeaths <- deaths/cases *100
+
+hist(percentdeaths,main="Histogram of percentage of population dead",freq = FALSE,xlab="percent dead",ylab="number of cities/counties",xlim=c(0,100))
+hist(percentcases,main="Histogram of percentage of population infected",freq=FALSE,xlab = "percent infected",ylab="number of cities/counties",xlim=c(0,100))
+hist(percentcasedeaths,main="Histogram of percentage of infected dead",freq=FALSE,xlab="percent infected who died",ylab="number of cities/counties",xlim=c(0,100))

@@ -1,0 +1,13 @@
+name: Predictor
+title: Predictor
+username:
+account: stefanmaciolek
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2104816
+bundleId: 3004280
+url: https://stefanmaciolek.shinyapps.io/Predictor/
+when: 1586726407.1678
+lastSyncTime: 1586726407.1678
+asMultiple: FALSE
+asStatic: FALSE
