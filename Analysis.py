@@ -1,17 +1,41 @@
 import pandas as pd
 import numpy as np
 import matplotlib as plt
+import math as math
 #pip install gspread oauth2client
 
 uscases = pd.read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv")
 n=len(uscases.columns)
-#cols = [5,6,int(str(list(range(11,n+1))))]
-uslocs = uscases.iloc[:,5:7]
-uscases = uscases.iloc[:,11:n]
-#uscases = uscases.iloc
-#sum = int(str([0] * 10))
-#for i in range(1,n):
-#    sum[i] = sum(uscases[:,1:n])
+
+uslocs = uscases["Province_State"].unique()
+
+m = len(uslocs)
+sumc = []
+for i in range(0,m):
+    temp = uscases.values[uscases.Province_State == uslocs[i],:]
+    sumc.append(sum(temp[:,n-1]))
+
+sumroot = []  
+for i in range(0,m):
+    sumroot.append(math.sqrt(sumc[i]))
+    
+logroot = []
+for i in range(0,m):
+    logroot.append(math.log(sumc[i]+1))
+
+plt.pyplot.hist(sumc)
+plt.pyplot.title("Histogram of US cases by Total Number of Cases")
+
+plt.pyplot.hist(sumroot)
+plt.pyplot.title("Histogram of US cases by Square Root of Total Number of Cases")
+
+plt.pyplot.hist(logroot)
+plt.pyplot.title("Histogram of US cases by Log of Total Number of Cases")
+
+
+
+
+
 
 m = len(uscases.columns)
 final = uscases.iloc[:,m-1]

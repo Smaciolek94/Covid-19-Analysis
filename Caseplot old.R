@@ -1,13 +1,9 @@
 #updating to make it easier for shiny
 #importing data from Johns Hopkins Github
-library(httr)
 rawcases <- read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"))
 rawdeaths <-read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"))
 uscases <- read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"))
 usdeaths <- read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"))
-#old csv import as a backup
-#rawcases <- read.csv("C:\\Users\\Stvma\\Documents\\GitHub\\Covid-19-Analysis\\Copy of time_series_covid_19_confirmed_4_8.csv",header=TRUE)
-#rawdeaths <- read.csv("C:\\Users\\Stvma\\Documents\\GitHub\\Covid-19-Analysis\\Copy of time_series_covid_19_deaths_4_8_update.csv",header=TRUE)
 rawcases <- rawcases[,-c(3:4)]
 rawdeaths <- rawdeaths[,-c(3:4)]
 uscases <- uscases[,-c(1:5,8:11)]
@@ -114,3 +110,6 @@ townplot <- function(county,region){
   plot(date,newcases,main=main3,ylab="cases",type="o")
   plot(date,newdeaths,main=main4,ylab="deaths",type="o")
 }
+countryplot("US")
+stateplot("New Jersey")
+townplot("Mercer","New Jersey")
