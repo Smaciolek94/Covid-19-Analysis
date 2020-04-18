@@ -12,18 +12,23 @@ using namespace Rcpp;
 //
 
 // [[Rcpp::export]]
-NumericVector first(Rcpp::NumericMatrix uscases, int row){
+NumericVector first(NumericMatrix uscases, int row){
   int n = uscases.ncol();
-  Rcpp::NumericVector temp(n);
-  for (int i=0; i < n; ++i) {
-    temp(i) = uscases(i,row);
-  }
+  NumericVector temp(n);
+  //for (int i=0; i < n; ++i) {
+  //  NumericVector temp(n);
+    //temp = uscases[Range(0,n),row];
+  //  temp[i]= uscases(i,row);
+ // }
+ temp = uscases(row,_);
+ NumericVector date(n);
+ date[0] = 1;
+ for (int i=0; i<n; ++i){
+   date[i] += i;
+ }
+ //NumericMatrix tempcases(2,n);
+ //tempcases(1,_) = date;
+ //tempcases(2,_) = temp;
   return temp;
 }
-
-
-// You can include R code blocks in C++ files processed with sourceCpp
-// (useful for testing and development). The R code will be automatically 
-// run after the compilation.
-//
 
