@@ -13,6 +13,8 @@ date <- 1:n
 date <- as.Date(date,origin = "2020-01-21")
 format(date,format = "%b %d %y")
 
+wkday <- c("W","T","F","S","S","M","T")
+
 countryplot <- function(region,cd){
     cases <- rep(0,n)
     newcases <- rep(0,n)
@@ -37,16 +39,16 @@ countryplot <- function(region,cd){
     main3 <- paste("New Cases in:",region,date[n])
     main4 <- paste("New Deaths in:",region,date[n])
     if (cd=="a"){
-        plot(date,cases,main=main1,ylab="cases",type="o")
+        plot(date,cases,main=main1,ylab="cases",type="o",pch=wkday)
     }
     if (cd =="b"){
-        plot(date,deaths,main=main2,ylab="deaths",type="o")
+        plot(date,deaths,main=main2,ylab="deaths",type="o",pch=wkday)
     }
     if (cd=="c"){
-        plot(date,newcases,main=main3,ylab="cases",type="o")
+        plot(date,newcases,main=main3,ylab="cases",type="o",pch=wkday)
     }
     if (cd=="d"){
-        plot(date,newdeaths,main=main4,ylab="deaths",type="o")
+        plot(date,newdeaths,main=main4,ylab="deaths",type="o",pch=wkday)
     }
 }
 
@@ -78,16 +80,16 @@ stateplot <- function(region,cd){
     main3 <- paste("New Cases in:",region,date[n])
     main4 <- paste("New Deaths in:",region,date[n])
     if (cd == "a"){
-        plot(date,cases,main=main1,ylab="cases",type="o")
+        plot(date,cases,main=main1,ylab="cases",type="o",pch=wkday)
     }
     if (cd == "b"){
-        plot(date,deaths,main=main2,ylab="deaths",type="o")
+        plot(date,deaths,main=main2,ylab="deaths",type="o",pch=wkday)
     }
     if (cd == "c"){
-        plot(date,newcases,main=main3,ylab="cases",type="o")
+        plot(date,newcases,main=main3,ylab="cases",type="o",pch=wkday)
     }
     if (cd == "d"){
-        plot(date,newdeaths,main=main4,ylab="deaths",type="o")
+        plot(date,newdeaths,main=main4,ylab="deaths",type="o",pch=wkday)
     }
 }
 
@@ -115,16 +117,16 @@ townplot <- function(town,state,cd){
     main3 <- paste("New Cases in:",location,date[n])
     main4 <- paste("New Deaths in:",location,date[n])
     if (cd=="a"){
-        plot(date,cases,main=main1,ylab="cases",type="o")
+        plot(date,cases,main=main1,ylab="cases",type="o",pch=wkday)
     }
     if (cd=="b"){
-        plot(date,deaths,main=main2,ylab="deaths",type="o")
+        plot(date,deaths,main=main2,ylab="deaths",type="o",pch=wkday)
     }
     if (cd=="c"){
-        plot(date,newcases,main=main3,ylab="cases",type="o")
+        plot(date,newcases,main=main3,ylab="cases",type="o",pch=wkday)
     }
     if (cd=="d"){
-        plot(date,newdeaths,main=main4,ylab="deaths",type="o")
+        plot(date,newdeaths,main=main4,ylab="deaths",type="o",pch=wkday)
     }
 }
 

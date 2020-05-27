@@ -59,3 +59,6 @@ diag<-function(model){
   acf(as.vector(resid),main="ACF of Residuals")
 }
 diag(model)
+
+wkday <- c("W","T","F","S","S","M","T")
+plot(date,cases("New Jersey"),type="o",pch=wkday)
