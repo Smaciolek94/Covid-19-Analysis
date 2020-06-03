@@ -5,7 +5,8 @@ usdeaths <- usdeaths[,-c(1:5,8:12)]
 
 statenames <- unique(uscases$Province_State)
 
-n <- ncol(uscases)-2
+#n <- ncol(uscases)-2
+n <- 50
 date <- 1:n
 
 predictedcases <- function(nahead) {
@@ -37,7 +38,7 @@ predictedcases <- function(nahead) {
     format(newdate,format = "%b %d %y")
     
     main = paste("Predicted New Cases: Total US",nahead,"Days Out, in Red")
-    plot(newdate,totcases,col=c(rep("black",n),rep("red",nahead)),type="p",main=main,ylab="New Daily Cases",xlab="Date")
+    plot(newdate,totcases,col=c(rep("black",n),rep("red",nahead)),type="l",main=main,ylab="New Daily Cases",xlab="Date")
 }
 
 
