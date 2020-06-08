@@ -1,0 +1,114 @@
+---
+title: "US Covid-19 Cases Time Series Analysis"
+author: "Stefan Maciolek"
+date: "5/28/2020"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#importing Covid Data from Johns Hopkins 
+uscases <- read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"))
+usdeaths <- read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"))
+uscases <- uscases[,-c(1:5,8:11)]
+usdeaths <- usdeaths[,-c(1:5,8:12)]
+n <- 127
+date <- 1:n
+date <- as.Date(date,origin = "2020-01-21")
+format(date,format = "%b %d %y")
+```
+The data were imported from Johns Hopkins, cleaned up, and a date variable was created for plotting purposes.  For this analysis the death data wasn't used, just the case numbers
+```{r}
+#finding total cases and turning them into a time series object
+library(TSA)
+totcase <- colSums(uscases[,3:(n+2)])
+newcase <- rep(0,n)
+newcase[1] <- totcase[1]
+newcase[2:n] <- diff(totcase)
+newcase <- ts(data=newcase,start=c(2020,01,22),frequency = 365)
+```
+
+A the data were turned into a time series object
+```{r}
+#trying various transformations
+wkday <- c("W","T","F","S","S","M","T")
+plot(date,newcase,type="o",main="Untransformed time series")
+plot(date,log(newcase),type="o",main="Log time series")
+plot(date[2:n],diff(newcase),type="o",main="First difference time series",pch=wkday)
+plot(date[2:n],log(diff(newcase)),type="o",main="Log of first difference time series")
+plot(date[8:n],diff(newcase,7),type="o",main="First weekly difference time series")
+plot(date[9:n],diff(diff(newcase),7),type="o",main="First and weekly difference time series",pch=wkday)
+```
+
+Several transformations and combinations of transformations were tested to see if they made the data random.  In the end, a first and first seasonal difference with a weekly period were chosen.
+```{r}
+#starting with an ARIMA model with both a first and first weekly difference
+#preliminary analysis
+transcase <- diff(diff(newcase),7)
+acf(as.vector(transcase),main="ACF of transformed series",lag.max=30)
+pacf(as.vector(transcase),main="PACF of transformed series",lag.max=30)
+periodogram(transcase,main="Periodgram of transformed series")
+```
+
+The ACF and PACF of the series suggest a starting model with at least 1 AR and 1 seasonal AR component.
+```{r}
+#model fitting:
+#looking at the periodograms, it appears a ARIMA(1,1,0)x(1,1,0)_7 is justified to start
+tsmodel <- function(ar,ma,ars,mas){
+  mod <- arima(newcase,order=c(ar,1,ma),seasonal=list(order=c(ars,1,mas),period=7))
+  return(mod)
+}
+tsmodel(1,0,1,0)
+tsmodel(2,0,1,0)
+tsmodel(2,0,2,0)
+tsmodel(3,0,2,0) #not significant
+tsmodel(2,0,3,0) #not significant
+tsmodel(2,1,2,0)
+tsmodel(2,1,2,1)
+tsmodel(2,2,2,1) #not significant
+tsmodel(2,1,2,2) #R did not like this
+#the final model is an ARIMA(2,1,2)X(2,1,1)_7
+```
+
+The order of the model was raised one component at a time until adding further components were no longer significant.  The final model was an ARIMA(2,1,1)X(2,1,2)_7
+```{r}
+#diagnostics:
+model<-tsmodel(2,1,2,2)
+plot(date,model$residuals,main="model residuals",type="o")
+acf(as.vector(model$residuals),main="ACF of model residuals")
+qqnorm(model$residuals,main="QQ plot of model residuals")
+hist(model$residuals,main="histogram of model residuals")
+```
+
+The residuals were analyzed and diagnostics produced.  The residuals are more or less normal, and although they are somewhat autocorrelated at a few higher lags, it doesn't appear large enough to justify a more complex model
+```{r}
+#predictions
+predictions <- predict(model,n.ahead=10)
+dateahead<- seq(from=(n+1),to=(n+10))
+dateahead <- as.Date(dateahead,origin = "2020-01-21")
+format(dateahead,format = "%b %d %y")
+plot(dateahead,predictions$pred,main="Predicted Cases",type="o",ylim=c(5000,30000),ylab="Predicted Daily New Cases",xlab="Date",col="red")
+lines(dateahead,(predictions$pred - 1.96*predictions$se),type="l",col="red")
+lines(dateahead,(predictions$pred + 1.96*predictions$se),type="l",col="red")
+datenew <- c(date,dateahead)
+total <- c(newcase,predictions$pred)
+plot(datenew,total,col=c(rep("black",n),rep("red",10)),main="Predicted Cases",type="o",ylab="Daily New Cases",xlab="Date")
+lines(dateahead,(predictions$pred - 1.96*predictions$se),type="l",col="red")
+lines(dateahead,(predictions$pred + 1.96*predictions$se),type="l",col="red")
+plot(dateahead,predictions$pred,main="Predicted and Observed Cases",type="o",ylim=c(5000,30000),ylab="Daily New Cases",xlab="Date",col="red")
+lines(dateahead,(predictions$pred - 1.96*predictions$se),type="l",col="red")
+lines(dateahead,(predictions$pred + 1.96*predictions$se),type="l",col="red")
+datenew <- c(date,dateahead)
+newcasetot <- colSums(uscases[,130:139])
+newnewcase <- rep(0,10)
+newnewcase[1] <- newcasetot[1] - totcase[127]
+newnewcase[2:10] <- diff(newcasetot)
+lines(datenew[128:137],newnewcase,type="o",col="black")
+legend("bottomleft",legend=c("Observed","Predicted"),col=c("black","red"),
+       pch=c(1,1))
+```
+
+The model was used to create predictions for 10 days out. 
