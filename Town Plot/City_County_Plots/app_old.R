@@ -3,7 +3,7 @@ usdeaths <- read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID
 uscases <- uscases[,-c(1:10)]
 usdeaths <- usdeaths[,-c(1:10,12)]
 
-location <- unique(uscases$Combined_Key)
+location <- as.character(uscases$Combined_Key)
 
 n <- ncol(uscases)-1
 date <- 1:n
@@ -15,8 +15,6 @@ townplot <- function(location,cd){
     newcases <- rep(0,n)
     deaths <- rep(0,n)
     newdeaths <- rep(0,n)
-    rollingcase <- rep(0,n)
-    rollingdeath <- rep(0,n)
     towncase <- as.numeric(uscases[which(uscases$Combined_Key==location),])
     towndeath <- as.numeric(usdeaths[which(usdeaths$Combined_Key==location),])
     for (i in 1:n){
@@ -27,18 +25,10 @@ townplot <- function(location,cd){
             newdeaths[i] <- deaths[i] - deaths[i-1]
         }
     }
-    newcases[1] <- cases[1]
-    newdeaths[1] <- deaths[1]
-    for (i in 6:n){
-        rollingcase[i] <- mean(newcases[(i-6):i])
-        rollingdeath[i] <- mean(newdeaths[(i-6):i])
-    }
-    rollingcase[1:6] <- newcases[1:6]
-    rollingdeath[1:6] <- newdeaths[1:6]
     main1 <- paste("Total Cases in:",location,date[n])
     main2 <- paste("Total Deaths in:",location,date[n])
-    main3 <- paste("7 Day MA New Cases in:",location,date[n])
-    main4 <- paste("7 Day MA New Deaths in:",location,date[n])
+    main3 <- paste("New Cases in:",location,date[n])
+    main4 <- paste("New Deaths in:",location,date[n])
     if (cd=="a"){
         plot(date,cases,main=main1,ylab="cases",type="o")
     }
@@ -46,10 +36,10 @@ townplot <- function(location,cd){
         plot(date,deaths,main=main2,ylab="deaths",type="o")
     }
     if (cd=="c"){
-        plot(date,rollingcase,main=main3,ylab="cases",type="o")
+        plot(date,newcases,main=main3,ylab="cases",type="o")
     }
     if (cd=="d"){
-        plot(date,rollingdeath,main=main4,ylab="deaths",type="o")
+        plot(date,newdeaths,main=main4,ylab="deaths",type="o")
     }
 }
 

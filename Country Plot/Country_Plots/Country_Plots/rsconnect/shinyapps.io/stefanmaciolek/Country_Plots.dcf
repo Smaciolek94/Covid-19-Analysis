@@ -5,8 +5,9 @@ account: stefanmaciolek
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2396738
-bundleId: 3219668
+bundleId: 3278951
 url: https://stefanmaciolek.shinyapps.io/Country_Plots/
-when: 1591122707.49364
+when: 1592336788.58647
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: app_old.R

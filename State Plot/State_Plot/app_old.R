@@ -1,9 +1,63 @@
+statenames <- c("Alabama","Alaska","American Samoa","Arizona",
+                "Arkansas",
+                "California",
+                "Colorado",
+                "Connecticut",
+                "Delaware",
+                "Diamond Princess",
+                "District of Columbia",
+                "Florida",
+                "Georgia",
+                "Grand Princess",
+                "Guam",
+                "Hawaii",
+                "Idaho",
+                "Illinois",
+                "Indiana",
+                "Iowa",
+                "Kansas",
+                "Kentucky",
+                "Louisiana",
+                "Maine",
+                "Maryland",
+                "Massachusetts",
+                "Michigan",
+                "Minnesota",
+                "Mississippi",
+                "Missouri",
+                "Montana",
+                "Nebraska",
+                "Nevada",
+                "New Hampshire",
+                "New Jersey",
+                "New Mexico",
+                "New York",
+                "North Carolina",
+                "North Dakota",
+                "Northern Mariana Islands",
+                "Ohio",
+                "Oklahoma",
+                "Oregon",
+                "Pennsylvania",
+                "Puerto Rico",
+                "Rhode Island",
+                "South Carolina",
+                "South Dakota",
+                "Tennessee",
+                "Texas",
+                "Utah",
+                "Vermont",
+                "Virgin Islands",
+                "Virginia",
+                "Washington",
+                "West Virginia",
+                "Wisconsin",
+                "Wyoming")
+
 uscases <- read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"))
 usdeaths <- read.csv(url("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"))
 uscases <- uscases[,-c(1:5,8:11)]
 usdeaths <- usdeaths[,-c(1:5,8:12)]
-
-statenames <- unique(uscases$Province_State)
 
 n <- ncol(uscases)-2
 date <- 1:n
@@ -15,10 +69,14 @@ stateplot <- function(region,cd){
     newcases <- rep(0,n)
     deaths <- rep(0,n)
     newdeaths <- rep(0,n)
-    rollingcase <- rep(0,n)
-    rollingdeath <- rep(0,n)
+    cases <- as.numeric(cases)
+    newcases <- as.numeric(newcases)
+    deaths <- as.numeric(deaths)
+    newdeaths <- as.numeric(newdeaths)
     regioncase <- uscases[which(uscases$Province_State==region),]
     regiondeath <- usdeaths[which(usdeaths$Province_State==region),]
+    #regioncase <- as.numeric(regioncase)
+    #regiondeath <- as.numeric(regiondeath)
     for (i in 1:n){
         cases[i] <- sum(regioncase[i+2])
         deaths[i] <- sum(regiondeath[i+2])
@@ -29,16 +87,10 @@ stateplot <- function(region,cd){
     }
     newcases[1] <- cases[1]
     newdeaths[1] <- deaths[1]
-    for (i in 6:n){
-        rollingcase[i] <- mean(newcases[(i-6):i])
-        rollingdeath[i] <- mean(newdeaths[(i-6):i])
-    }
-    rollingcase[1:6] <- newcases[1:6]
-    rollingdeath[1:6] <- newdeaths[1:6]
     main1 <- paste("Total Cases in:",region,date[n])
     main2 <- paste("Total Deaths in:",region,date[n])
-    main3 <- paste("7 Day MA New Cases in:",region,date[n])
-    main4 <- paste("7 Day MA New Deaths in:",region,date[n])
+    main3 <- paste("New Cases in:",region,date[n])
+    main4 <- paste("New Deaths in:",region,date[n])
     if (cd == "a"){
         plot(date,cases,main=main1,ylab="cases",type="o")
     }
@@ -46,10 +98,10 @@ stateplot <- function(region,cd){
         plot(date,deaths,main=main2,ylab="deaths",type="o")
     }
     if (cd == "c"){
-        plot(date,rollingcase,main=main3,ylab="cases",type="o")
+        plot(date,newcases,main=main3,ylab="cases",type="o")
     }
     if (cd == "d"){
-        plot(date,rollingdeath,main=main4,ylab="deaths",type="o")
+        plot(date,newdeaths,main=main4,ylab="deaths",type="o")
     }
 }
 

@@ -5,9 +5,9 @@ account: stefanmaciolek
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2087605
-bundleId: 2994061
+bundleId: 3278942
 url: https://stefanmaciolek.shinyapps.io/State_Plot/
-when: 1586469422.99326
-lastSyncTime: 1586469422.99326
+when: 1592336666.44484
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: .RData|app_old.R
