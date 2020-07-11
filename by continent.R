@@ -111,14 +111,14 @@ asia<-rowSums(AsiaTotal)
 australia <- countryplot("Australia")
 
 plot(date,europe,main="New Daily Cases in Several Continents",
-     xlab="Date",ylab="New Cases",type="l",col="blue")
+     xlab="Date",ylab="New Cases",type="l",col="blue",ylim=c(0,70000))
 lines(date,north,type="l",col="green")
 lines(date,(south+central),type="l",col="red")
 lines(date,africa,type="l",col="orange")
 lines(date,(asia+australia),type="l",col="purple")
 legend("topleft",legend=c("Europe","North America","Central and South America",
         "Africa","Asia and Australia"),col=c("blue","green","red","orange","purple"),
-       pch=c(1,1),lty=c(.5,.5))
+       pch=c(1,1),lty=c(.5,.5),bty="n")
 
 total <- europe + north + south + central + asia + australia + africa
 plot(date,total,main="New Daily Cases in Several Continents",
