@@ -1,5 +1,5 @@
 ##total app
-##this has been updated to include testing data
+##testing data analysis withheld for now
 
 library(shiny)
 library(ggplot2)
@@ -31,14 +31,14 @@ countrynames <- unique(rawcases$Country.Region)
 
 #stateplot
 statenames <- unique(usstatecases$Province_State)
-statenames <- statenames[!statenames %in% c("Diamond Princess","Grand Princess")]
+#statenames <- statenames[!statenames %in% c("Diamond Princess","Grand Princess")]
 
 #townplot
 location <- unique(ustowncases$Combined_Key)
 
 #test plots
-testinputs <- c("AL","AK","AS","AZ","AR","CA","CO","CT","DE","DC","FL","GA","GU","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","MP","OH","OK","OR","PA","PR","RI","SC","SD","TN","TX","UT","VT","VA","VI","WA","WV","WI","WY")
-testkey <- data.frame(testinputs,statenames)
+#testinputs <- c("AL","AK","AS","AZ","AR","CA","CO","CT","DE","DC","FL","GA","GU","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","MP","OH","OK","OR","PA","PR","RI","SC","SD","TN","TX","UT","VT","VA","VI","WA","WV","WI","WY")
+#testkey <- data.frame(testinputs,statenames)
 
 n <- ncol(rawcases)-2
 date <- 1:n
@@ -271,52 +271,52 @@ townplot <- function(location,cd){
     }
 }
 
-testplots <- function(statefull,ab){
-    state <- testkey[testkey$statenames==statefull,1]
-    statedata <- data[which(testdata$state==state),]
-    n <- nrow(statedata)
-    index <- 1:n
-    statedata <- data.frame(statedata,index)
-    statedata <- statedata[order(-statedata$index),]
-    statedata[is.na(statedata)] <- 0
-    positive <- rep(0,n)
-    #negative <- rep(0,n)
-    positive[1] <- statedata$positive[1]
+#testplots <- function(statefull,ab){
+#    state <- testkey[testkey$statenames==statefull,1]
+#    statedata <- data[which(testdata$state==state),]
+#    n <- nrow(statedata)
+#    index <- 1:n
+#    statedata <- data.frame(statedata,index)
+#    statedata <- statedata[order(-statedata$index),]
+#    statedata[is.na(statedata)] <- 0
+#    positive <- rep(0,n)
+#    #negative <- rep(0,n)
+#    positive[1] <- statedata$positive[1]
     #negative[1] <- statedata$negative[1]
-    positive[2:n] <- diff(statedata$positive)
+#    positive[2:n] <- diff(statedata$positive)
     #negative[2:n] <- diff(statedata$negative)
-    total <- rep(0,n) #new
-    total[1] <- statedata$totalTestResults[1]
-    total[2:n] <- diff(statedata$totalTestResults) #new
+#    total <- rep(0,n) #new
+ #   total[1] <- statedata$totalTestResults[1]
+#    total[2:n] <- diff(statedata$totalTestResults) #new
     #pending <- statedata$pending
     #total<-positive+negative+pending
-    percentpositive <- positive / total * 100
-    origin <- Sys.Date() - n - 1
-    date <- 1:n
-    date <- as.Date(date,origin = origin)
-    format(date,format = "%b %d %y")
-    df <- data.frame(date,total,percentpositive)
-    if(ab==1){
-        main = paste("Daily Tests in",statefull)
-        a <- ggplot(df)
-        a <- a + geom_area(aes_string(x=date,y=total),fill="seagreen4")
-        a <- a + geom_line(aes_string(x=date,y=total))
-        a <- a + ggtitle(main) + xlab("Date") + ylab("Number of Tests")
-        a <- a + scale_x_continuous(breaks = datefirst)
-        a <- a + scale_y_continuous(labels=comma)
-        return(a)
-    }
-    if(ab==2){
-        main = paste("Pecent Positive/Negative Test Results in",statefull)
-        b <- ggplot(df)
-        b <- b + geom_area(aes_string(x=date,y=percentpositive),fill="red")
-        b <- b + geom_line(aes_string(x=date,y=percentpositive))
-        b <- b + ggtitle(main) + xlab("Date") + ylab("Percentage of Tests Positive")
-        b <- b + scale_x_continuous(breaks = datefirst)
-        b <- b + scale_y_continuous(labels=comma)
-        return(b)
-    }
-}
+#    percentpositive <- positive / total * 100
+#    origin <- Sys.Date() - n - 1
+#    date <- 1:n
+#    date <- as.Date(date,origin = origin)
+#    format(date,format = "%b %d %y")
+#    df <- data.frame(date,total,percentpositive)
+#    if(ab==1){
+#        main = paste("Daily Tests in",statefull)
+#        a <- ggplot(df)
+#        a <- a + geom_area(aes_string(x=date,y=total),fill="seagreen4")
+#        a <- a + geom_line(aes_string(x=date,y=total))
+#        a <- a + ggtitle(main) + xlab("Date") + ylab("Number of Tests")
+#        a <- a + scale_x_continuous(breaks = datefirst)
+#        a <- a + scale_y_continuous(labels=comma)
+#        return(a)
+#    }
+#    if(ab==2){
+#        main = paste("Pecent Positive/Negative Test Results in",statefull)
+#        b <- ggplot(df)
+#        b <- b + geom_area(aes_string(x=date,y=percentpositive),fill="red")
+#        b <- b + geom_line(aes_string(x=date,y=percentpositive))
+#        b <- b + ggtitle(main) + xlab("Date") + ylab("Percentage of Tests Positive")
+#        b <- b + scale_x_continuous(breaks = datefirst)
+#        b <- b + scale_y_continuous(labels=comma)
+#        return(b)
+#    }
+#}
 
 ui <- fluidPage(
     titlePanel("Covid-19 Case and Death Tracker"),
@@ -342,9 +342,9 @@ ui <- fluidPage(
             plotOutput("plot5"),
             plotOutput("plot6"),
             plotOutput("plot7"),
-            plotOutput("plot8"),
-            plotOutput("plot9"),
-            plotOutput("plot10")
+            plotOutput("plot8")
+           # plotOutput("plot9"),
+        #    plotOutput("plot10")
         ),
         tabPanel(
             id = "plots3",
@@ -384,12 +384,12 @@ server <- function(input, output, session) {
     output$plot8<-renderPlot({
         stateplot(input$state,"B")
     })
-    output$plot9<-renderPlot({
-        testplots(input$state,1)
-    })
-    output$plot10<-renderPlot({
-        testplots(input$state,2)
-    })
+#    output$plot9<-renderPlot({
+#        testplots(input$state,1)
+#    })
+#    output$plot10<-renderPlot({
+#        testplots(input$state,2)
+#    })
     output$plot11<-renderPlot({
         townplot(input$location,"C")
     })

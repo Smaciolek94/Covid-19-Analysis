@@ -5,8 +5,8 @@ account: stefanmaciolek
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3295259
-bundleId: 3900320
+bundleId: 4083095
 url: https://stefanmaciolek.shinyapps.io/StefanMaciolek_Covid-19_Tracker/
-when: 1606234334.07557
+when: 1610389043.66283
 asMultiple: FALSE
 asStatic: FALSE
